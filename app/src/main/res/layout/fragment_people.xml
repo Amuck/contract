@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true">
+
+    <FrameLayout
+        android:layout_above="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/stick_header"
+            android:visibility="invisible"/>
+
+        <!--<com.damao.tongxunlu.view.refreshlayout.MaterialRefreshLayout-->
+            <!--android:id="@+id/refresh"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_alignWithParentIfMissing="true"-->
+            <!--android:layout_above="@+id/footer"-->
+            <!--android:layout_below="@+id/d1"-->
+            <!--app:layout_behavior="@string/appbar_scrolling_view_behavior">-->
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/default_30" />
+        <!--</com.damao.tongxunlu.view.refreshlayout.MaterialRefreshLayout>-->
+        <com.damao.tongxunlu.view.PinYinSlideView
+            android:id="@+id/pinYinSlideView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right" />
+
+        <com.damao.tongxunlu.view.CircleTextView
+            android:id="@+id/circleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/default_90"
+        android:layout_alignParentBottom="true"
+        android:background="@color/background_color"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/add"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:focusable="true"
+            android:gravity="center"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/add"
+            android:textColor="@drawable/tabitem_txt_sel"
+            android:textSize="@dimen/PX_34" />
+
+        <TextView
+            android:id="@+id/scan"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:focusable="true"
+            android:background="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:visibility="gone"
+            android:text="@string/scan"
+            android:textColor="@drawable/tabitem_txt_sel"
+            android:textSize="@dimen/PX_34" />
+
+        <TextView
+            android:id="@+id/search"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="@string/search"
+            android:textColor="@drawable/tabitem_txt_sel"
+            android:textSize="@dimen/PX_34" />
+
+        <TextView
+            android:id="@+id/menu"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:focusable="true"
+            android:background="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:text="@string/user"
+            android:textColor="@drawable/tabitem_txt_sel"
+            android:textSize="@dimen/PX_34" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/d3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DP_1"
+        android:layout_above="@+id/footer"
+        android:background="@color/divider_color" />
+</RelativeLayout>

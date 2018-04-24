@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircularProgressBar">
+        <attr name="cpb_progress" format="integer" />
+        <attr name="cpb_progressbar_color" format="color" />
+        <attr name="cpb_background_progressbar_color" format="color" />
+        <attr name="cpb_progressbar_width" format="dimension" />
+        <attr name="cpb_background_progressbar_width" format="dimension" />
+        <attr name="cpb_background_img" format="integer" />
+        <attr name="cpb_background_color" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="indicator">
+        <attr name="selected_color" format="color" />
+        <attr name="unselected_color" format="color" />
+        <attr name="unselected_style" format="boolean" />
+        <attr name="distance_from_two_indicator" format="dimension" />
+        <attr name="radius" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="ProgressTextView">
+        <attr name="ptv_textColor" format="color" />
+        <attr name="ptv_thumWidth" format="dimension" />
+        <attr name="ptv_textSize" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="InfoTable">
+        <!-- type 抵押方式 -->
+        <attr name="cartype" format="string" />
+        <!-- name 车辆名称 -->
+        <attr name="carname" format="string" />
+        <!-- num 车辆号牌 -->
+        <attr name="carnum" format="string" />
+        <!-- color 车辆颜色 -->
+        <attr name="carcolor" format="string" />
+        <!-- splace 排量 -->
+        <attr name="carsplace" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="DetailPanel">
+        <attr name="item_img" format="reference" />
+        <attr name="item_title" format="string" />
+        <!-- value: 居左显示的内容 -->
+        <attr name="value" format="string" />
+        <attr name="item_title_color" format="color" />
+        <!-- item_content 居右显示的内容 -->
+        <attr name="item_content" format="string" />
+        <attr name="item_content_color" format="color" />
+        <attr name="view_mark_visible">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="4" />
+            <enum name="gone" value="8" />
+        </attr>
+    </declare-styleable>
+
+    <attr name="indicatorDefStyleAttr" format="reference" />
+
+    <!-- LockPatternView class attributes -->
+    <declare-styleable name="LockPatternView">
+
+        <!--
+             Aspect to use when drawing LockPatternView. Choices are "square"(default), "lock_width"
+             or "lock_height"
+        -->
+        <attr name="aspect">
+            <enum name="square" value="0" />
+            <enum name="lockWidth" value="1" />
+            <enum name="lockHeight" value="2" />
+        </attr>
+        <attr name="line" format="color" />
+        <attr name="btnNormal" format="reference" />
+        <attr name="btnTouched" format="reference" />
+        <attr name="circleNormal" format="reference" />
+        <attr name="circleGreen" format="reference" />
+        <attr name="circleRed" format="reference" />
+        <attr name="arrowGreenUp" format="reference" />
+        <attr name="arrowRedUp" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="SwitchButton">
+        <attr name="frameDrawable" format="reference|color" />
+        <attr name="stateDrawable" format="reference|color" />
+        <attr name="stateMaskDrawable" format="reference|color" />
+        <attr name="sliderDrawable" format="reference|color" />
+        <attr name="withTextInterval" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="WeekBarView">
+        <attr name="week_text_color" format="color" />
+        <attr name="week_text_size" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="MonthCalendarView">
+        <attr name="month_selected_text_color" format="color" />
+        <attr name="month_selected_circle_color" format="color" />
+        <attr name="month_selected_circle_today_color" format="color" />
+        <attr name="month_normal_text_color" format="color" />
+        <attr name="month_today_text_color" format="color" />
+        <attr name="month_lunar_text_color" format="color" />
+        <attr name="month_hint_circle_color" format="color" />
+        <attr name="month_holiday_color" format="color" />
+        <attr name="month_last_or_next_month_text_color" format="color" />
+        <attr name="month_day_text_size" format="integer" />
+        <attr name="month_day_lunar_text_size" format="integer" />
+        <attr name="month_show_task_hint" format="boolean" />
+        <attr name="month_show_lunar" format="boolean" />
+        <attr name="month_show_holiday_hint" format="boolean" />
+        <attr name="month_ym" format="boolean" />
+        <attr name="month_count" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="WeekCalendarView">
+        <attr name="week_selected_text_color" format="color" />
+        <attr name="week_selected_circle_color" format="color" />
+        <attr name="week_selected_circle_today_color" format="color" />
+        <attr name="week_normal_text_color" format="color" />
+        <attr name="week_today_text_color" format="color" />
+        <attr name="week_hint_circle_color" format="color" />
+        <attr name="week_holiday_color" format="color" />
+        <attr name="week_lunar_text_color" format="color" />
+        <attr name="week_day_text_size" format="integer" />
+        <attr name="week_day_lunar_text_size" format="integer" />
+        <attr name="week_show_task_hint" format="boolean" />
+        <attr name="week_show_lunar" format="boolean" />
+        <attr name="week_show_holiday_hint" format="boolean" />
+        <attr name="week_count" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="ScheduleLayout">
+        <attr name="default_view">
+            <enum name="month" value="0" />
+            <enum name="week" value="1" />
+        </attr>
+        <attr name="auto_change_month_row" format="boolean" />
+        <attr name="week_calendar_height" format="reference" />
+        <attr name="calendar_min_distance" format="reference" />
+        <attr name="auto_scroll_distance" format="reference" />
+    </declare-styleable>
+
+    <!-- style for MaterialRefreshLayout  -->
+    <declare-styleable name="MaterialRefreshLayout">
+        <attr name="overlay" format="boolean" />
+        <!-- style for MaterialWaveView  -->
+        <attr name="wave_height_type" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="higher" value="1" />
+        </attr>
+        <attr name="wave_color" format="color" />
+        <attr name="wave_show" format="boolean" />
+        <attr name="min_refresh" format="boolean" />
+        <attr name="min_refresh_height" format="reference" />
+        <!-- style for CircleProgressBar  -->
+        <attr name="progress_colors" format="reference" />
+        <attr name="progress_stoke_width" format="dimension" />
+        <attr name="progress_backgroud_color" format="color" />
+        <attr name="progress_show_arrow" format="boolean" />
+        <attr name="progress_arrow_width" format="dimension" />
+        <attr name="progress_arrow_height" format="dimension" />
+        <attr name="progress_show_circle_backgroud" format="boolean" />
+        <attr name="progress_value" format="integer" />
+        <attr name="progress_max_value" format="integer" />
+        <attr name="progress_text_size" format="dimension" />
+        <attr name="progress_text_color" format="color" />
+        <attr name="progress_text_visibility" format="enum">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="1" />
+        </attr>
+        <attr name="progress_size_type" format="enum">
+            <enum name="normal" value="0"></enum>
+            <enum name="big" value="1"></enum>
+        </attr>
+        <attr name="isLoadMore" format="boolean"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="DayPickerView">
+        <attr name="colorCurrentDay" format="color"/>
+        <attr name="colorSelectedDayBackground" format="color"/>
+        <attr name="colorSelectedDayText" format="color"/>
+        <attr name="colorPreviousDay" format="color"/>
+        <attr name="colorNormalDay" format="color" />
+        <attr name="colorMonthName" format="color" />
+        <attr name="colorDayName" format="color" />
+        <attr name="textSizeDay" format="dimension"/>
+        <attr name="textSizeMonth" format="dimension" />
+        <attr name="textSizeDayName" format="dimension" />
+        <attr name="headerMonthHeight" format="dimension" />
+        <attr name="selectedDayRadius" format="dimension" />
+        <attr name="calendarHeight" format="dimension" />
+        <attr name="enablePreviousDay" format="boolean" />
+        <attr name="currentDaySelected" format="boolean" />
+        <attr name="drawRoundRect" format="boolean" />
+        <attr name="firstMonth" format="enum">
+            <enum name="january" value="0" />
+            <enum name="february" value="1" />
+            <enum name="march" value="2" />
+            <enum name="april" value="3" />
+            <enum name="may" value="4" />
+            <enum name="june" value="5" />
+            <enum name="july" value="6" />
+            <enum name="august" value="7" />
+            <enum name="september" value="8" />
+            <enum name="october" value="9" />
+            <enum name="november" value="10" />
+            <enum name="december" value="11" />
+        </attr>
+        <attr name="lastMonth" format="enum">
+            <enum name="january" value="0" />
+            <enum name="february" value="1" />
+            <enum name="march" value="2" />
+            <enum name="april" value="3" />
+            <enum name="may" value="4" />
+            <enum name="june" value="5" />
+            <enum name="july" value="6" />
+            <enum name="august" value="7" />
+            <enum name="september" value="8" />
+            <enum name="october" value="9" />
+            <enum name="november" value="10" />
+            <enum name="december" value="11" />
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="YearBill">
+        <attr name="progress_visible" format="boolean" />
+    </declare-styleable>
+</resources>

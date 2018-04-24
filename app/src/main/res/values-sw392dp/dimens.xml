@@ -1,0 +1,671 @@
+<resources>
+    <!--default -->
+    <dimen name="DP_0">0.0dp</dimen>
+    <dimen name="DP_1">1.09dp</dimen>
+    <dimen name="DP_3">3.27dp</dimen>
+    <dimen name="DP_5">5.45dp</dimen>
+    <dimen name="DP_6">6.54dp</dimen>
+    <dimen name="DP_7">7.63dp</dimen>
+    <dimen name="DP_8">8.72dp</dimen>
+    <dimen name="DP_10">10.9dp</dimen>
+    <dimen name="DP_11">11.99dp</dimen>
+    <dimen name="DP_12">13.08dp</dimen>
+    <dimen name="DP_13">14.17dp</dimen>
+    <dimen name="DP_14">15.26dp</dimen>
+    <dimen name="DP_16">17.44dp</dimen>
+    <dimen name="DP_36">39.24dp</dimen>
+
+    <dimen name="PX_4">2.07dp</dimen>
+    <dimen name="PX_10">5.45dp</dimen>
+    <dimen name="PX_15">8.18dp</dimen>
+    <dimen name="PX_16">8.72dp</dimen>
+    <dimen name="PX_17">9.27dp</dimen>
+    <dimen name="PX_18">9.81dp</dimen>
+    <dimen name="PX_19">10.36dp</dimen>
+    <dimen name="PX_20">10.9dp</dimen>
+    <dimen name="PX_22">11.45dp</dimen>
+    <dimen name="PX_23">11.99dp</dimen>
+    <dimen name="PX_24">12.54dp</dimen>
+    <dimen name="PX_25">13.08dp</dimen>
+    <dimen name="PX_26">13.63dp</dimen>
+    <dimen name="PX_28">14.17dp</dimen>
+    <dimen name="PX_30">15.26dp</dimen>
+    <dimen name="PX_32">16.35dp</dimen>
+    <dimen name="PX_34">18.53dp</dimen>
+    <dimen name="PX_36">18.84dp</dimen>
+    <dimen name="PX_40">20.71dp</dimen>
+    <dimen name="PX_42">21.8dp</dimen>
+    <dimen name="PX_50">26.16dp</dimen>
+    <dimen name="PX_54">28.34dp</dimen>
+    <dimen name="PX_60">31.39dp</dimen>
+    <dimen name="PX_68">35.97dp</dimen>
+    <dimen name="PX_72">39.24dp</dimen>
+    <dimen name="PX_80">41.42dp</dimen>
+    <dimen name="PX_100">52.32dp</dimen>
+    <dimen name="PX_110">57.55dp</dimen>
+
+    <dimen name="default_30">15.26dp</dimen>
+    <dimen name="default_34">17.44dp</dimen>
+    <dimen name="default_15">7.63dp</dimen>
+    <dimen name="default_12">5.45dp</dimen>
+    <dimen name="default_5">2.62dp</dimen>
+    <dimen name="default_20">10.9dp</dimen>
+    <dimen name="default_42">21.8dp</dimen>
+    <dimen name="default_45">28.34dp</dimen>
+    <dimen name="default_60">31.61dp</dimen>
+    <dimen name="default_90">45.78dp</dimen>
+    <dimen name="default_100">52.32dp</dimen>
+    <dimen name="default_118">62.13dp</dimen>
+    <dimen name="screen_height">651.82dp</dimen>
+    <dimen name="status_bar_height">61.04dp</dimen>
+
+
+    <!--fragment home -->
+    <dimen name="fm_banner_height">187.48dp</dimen>
+    <dimen name="fm_notice_height">135.16dp</dimen>
+    <dimen name="fm_img_height">32.7dp</dimen>
+    <dimen name="fm_tv_height">70.85dp</dimen>
+    <dimen name="fm_blank_height">39.24dp</dimen>
+    <dimen name="fm_margin_left1">15.26dp</dimen>
+    <dimen name="fm_margin_left2">8.72dp</dimen>
+    <dimen name="fm_margin_left3">38.15dp</dimen>
+    <dimen name="fm_margin_top1">21.8dp</dimen>
+    <dimen name="fm_margin_top2">8.72dp</dimen>
+    <dimen name="fm_margin_right1">15.26dp</dimen>
+    <dimen name="fm_margin_right2">38.15dp</dimen>
+    <dimen name="fm_padding1">-16.35dp</dimen>
+    <dimen name="fm_padding2">5.45dp</dimen>
+    <dimen name="fm_img_padding">10.9dp</dimen>
+    <dimen name="fm_tv_padding">6.54dp</dimen>
+
+    <!--main bottom navigator -->
+    <dimen name="bottom_height">52.32dp</dimen>
+    <dimen name="bottom_item_padding">2.18dp</dimen>
+
+    <!--layout banner-->
+    <dimen name="lb_indicator_height">17.44dp</dimen>
+    <dimen name="lb_distance">8.72dp</dimen>
+    <dimen name="lb_radius">3.82dp</dimen>
+
+    <!--layout top bar-->
+    <dimen name="ltb_back_left">15.26dp</dimen>
+    <dimen name="ltb_height">61.04dp</dimen>
+
+    <!--layout godetail-->
+    <dimen name="lgd_height">52.32dp</dimen>
+    <dimen name="lgd_content_right">71.94dp</dimen>
+    <!--<dimen name="lgd_mark_right">10.9dp</dimen>-->
+
+    <!--layout product sub -->
+    <dimen name="ps_margin_top1">7.63dp</dimen>
+    <dimen name="ps_margin_top2">10.9dp</dimen>
+    <dimen name="ps_margin_top3">15.26dp</dimen>
+    <dimen name="ps_money_margin_top">15.26dp</dimen>
+    <dimen name="ps_money_value_top">10.9dp</dimen>
+    <dimen name="ps_margin_left">15.26dp</dimen>
+    <dimen name="ps_margin_left2">63.22dp</dimen>
+    <dimen name="ps_margin_left4">38.15dp</dimen>
+    <dimen name="ps_padding_bottom">5.45dp</dimen>
+    <dimen name="ps_padding_bottom2">17.44dp</dimen>
+    <dimen name="ps_padding_left1">3.27dp</dimen>
+    <dimen name="ps_confirm_height">39.24dp</dimen>
+    <dimen name="ps_confirm_width">276.86dp</dimen>
+    <dimen name="ps_race_top">6.54dp</dimen>
+
+    <!--activity login -->
+    <dimen name="al_padding_start">21.8dp</dimen>
+    <dimen name="al_logo_height">138.43dp</dimen>
+    <dimen name="al_logo_width">43.6dp</dimen>
+    <dimen name="al_logo_margin_top">39.24dp</dimen>
+    <dimen name="al_panel_height">61.04dp</dimen>
+    <dimen name="al_panel_marginstart">21.8dp</dimen>
+    <dimen name="al_loginbtn_width">359.7dp</dimen>
+    <dimen name="al_loginbtn_height">46.87dp</dimen>
+    <dimen name="al_loginbtn_top">52.32dp</dimen>
+    <dimen name="al_divder_margin">15.26dp</dimen>
+    <dimen name="al_regist_img_end">7.63dp</dimen>
+    <dimen name="al_bottom_img_top">54.5dp</dimen>
+    <dimen name="al_bottom_txt_top">76.3dp</dimen>
+    <dimen name="al_bottom_gift_top">87.2dp</dimen>
+    <dimen name="al_regist_height">43.6dp</dimen>
+
+    <!--activity regist -->
+    <dimen name="ar_groom_top">23.98dp</dimen>
+    <dimen name="ar_groom_draw_pd">7.63dp</dimen>
+    <dimen name="ar_name_top">13.08dp</dimen>
+
+    <!--activity open bank -->
+    <dimen name="aob_regist_success_top">26.16dp</dimen>
+    <dimen name="aob_help_msg">20.71dp</dimen>
+    <dimen name="aob_help_msg_height">26.16dp</dimen>
+    <dimen name="aob_bank_img_letf">13.08dp</dimen>
+    <dimen name="aob_bank_img_top">13.08dp</dimen>
+    <dimen name="aob_bank_divider_height">7.63dp</dimen>
+    <dimen name="aob_bank_help_height">33.79dp</dimen>
+    <dimen name="aob_img_gift_pd">7.63dp</dimen>
+
+    <!--activity mine -->
+    <dimen name="am_user_img_height">33.79dp</dimen>
+    <dimen name="am_red_height">227.81dp</dimen>
+    <dimen name="am_half_width">196.2dp</dimen>
+    <dimen name="am_thr_width">130.8dp</dimen>
+    <dimen name="am_half_top">4.36dp</dimen>
+    <dimen name="am_recharge_height">54.5dp</dimen>
+    <dimen name="am_header_top">16.35dp</dimen>
+    <dimen name="am_warn_top">9.48dp</dimen>
+    <dimen name="am_user_id_left">3.27dp</dimen>
+
+    <!--activity income list -->
+    <dimen name="aid_red_height">146.06dp</dimen>
+    <dimen name="aid_all_income_value_top">32.7dp</dimen>
+    <dimen name="aid_all_income_top">8.72dp</dimen>
+
+    <!--activity card set -->
+    <dimen name="acs_add_card_height">128.62dp</dimen>
+    <dimen name="acs_add_card_width">360.79dp</dimen>
+    <dimen name="acs_bank_img_width">43.6dp</dimen>
+    <dimen name="acs_bank_img_width_half">34.88dp</dimen>
+    <dimen name="acs_bank_img_left_half">17.44dp</dimen>
+    <dimen name="acs_bank_img_top_half">20.71dp</dimen>
+    <dimen name="acs_bank_img_left">13.08dp</dimen>
+    <dimen name="acs_bank_img_top">16.35dp</dimen>
+    <dimen name="acs_bank_num_top">10.9dp</dimen>
+    <dimen name="acs_btn_height">26.16dp</dimen>
+    <dimen name="acs_btn_width">73.03dp</dimen>
+
+    <!--layout deal item -->
+
+    <!--activity deal detail -->
+    <dimen name="add_filter_height">118.81dp</dimen>
+    <dimen name="add_filter_btn_height">32.7dp</dimen>
+    <dimen name="add_filter_btn_width">92.65dp</dimen>
+    <dimen name="add_btn_bottom_left1">-343.35dp</dimen>
+    <dimen name="add_btn_bottom_top">65.4dp</dimen>
+    <dimen name="add_btn_left">32.7dp</dimen>
+    <dimen name="add_btn_top">19.62dp</dimen>
+
+    <!--activity my invest -->
+    <dimen name="ami_header_height">103.55dp</dimen>
+    <dimen name="ami_filter_height">41.42dp</dimen>
+    <dimen name="ami_filter_check_top">39.24dp</dimen>
+    <dimen name="ami_filter_check_letf">21.8dp</dimen>
+    <dimen name="ami_filter_width">98.1dp</dimen>
+    <dimen name="ami_filter_divider">10.9dp</dimen>
+
+    <!--layout invest item-->
+    <dimen name="lii_date_value_right">49.05dp</dimen>
+    <dimen name="lii_progress_top">13.08dp</dimen>
+    <dimen name="lii_reward_top">18.53dp</dimen>
+    <dimen name="lii_text_width">98.1dp</dimen>
+
+    <!--activity account info-->
+    <dimen name="aai_user_img_height">67.58dp</dimen>
+    <dimen name="aai_user_info_top">4.36dp</dimen>
+
+    <!--activity gift-->
+    <dimen name="ag_heard_height">49.05dp</dimen>
+    <dimen name="ag_filter_height">31.61dp</dimen>
+    <dimen name="ag_filter_width">156.96dp</dimen>
+    <dimen name="ag_group_width">313.92dp</dimen>
+    <dimen name="ag_group_left">39.24dp</dimen>
+
+    <!--layout gift item-->
+    <dimen name="agi_top">8.72dp</dimen>
+    <dimen name="agi_type_width">52.32dp</dimen>
+    <dimen name="agi_type_height">18.53dp</dimen>
+    <dimen name="agi_status_top">21.8dp</dimen>
+    <dimen name="agci_status_top">8.72dp</dimen>
+    <dimen name="agi_item_left">10.9dp</dimen>
+    <dimen name="agi_charge_panel_height">261.6dp</dimen>
+    <dimen name="agi_charge_edit_height">46.87dp</dimen>
+    <dimen name="agi_charge_edit_width">340.08dp</dimen>
+    <dimen name="agi_header_width">346.62dp</dimen>
+    <dimen name="agi_img_width">350.98dp</dimen>
+    <dimen name="agi_img_height">134.07dp</dimen>
+    <dimen name="agi_cash_height">170.04dp</dimen>
+    <dimen name="agi_cash_statu_top">13.63dp</dimen>
+    <dimen name="agi_cash_statu_height">24.09dp</dimen>
+    <dimen name="agi_cash_statu_width">73.25dp</dimen>
+    <dimen name="agi_cash_btn_height">50.14dp</dimen>
+    <dimen name="agi_cash_money_top">9.81dp</dimen>
+
+    <!--activity msg list-->
+    <dimen name="aml_filter_width">130.8dp</dimen>
+    <dimen name="aml_edit_height">51.23dp</dimen>
+    <dimen name="aml_edit_width">98.1dp</dimen>
+
+    <!--activity account set-->
+    <dimen name="aas_phone_height">58.86dp</dimen>
+    <dimen name="aas_quit_height">46.87dp</dimen>
+
+    <!--layout dialog-->
+    <dimen name="ld_width">256.15dp</dimen>
+    <dimen name="ld_img_top">28.34dp</dimen>
+    <dimen name="ld_txt_top">22.89dp</dimen>
+    <dimen name="ld_divider_top">18.53dp</dimen>
+    <dimen name="ld_btn_width">127.53dp</dimen>
+    <dimen name="ld_btn_height">46.87dp</dimen>
+
+    <!--layout notice-->
+    <dimen name="ln_height">75.21dp</dimen>
+
+    <!--activity user info-->
+    <dimen name="aui_img_height">45.78dp</dimen>
+
+    <!--activity about-->
+    <dimen name="aa_header_height">135.16dp</dimen>
+    <dimen name="aa_logo_top">22.89dp</dimen>
+    <dimen name="aa_version_top">13.08dp</dimen>
+
+    <!--activity subscribe-->
+    <dimen name="as_help_height">37.06dp</dimen>
+    <dimen name="as_item_height">62.13dp</dimen>
+    <dimen name="as_item_help_top">40.33dp</dimen>
+
+    <!--activity reset pwd-->
+    <dimen name="arp_btn_top">28.34dp</dimen>
+
+    <!--activity reset phone-->
+    <dimen name="aro_filter_height">62.13dp</dimen>
+    <dimen name="aro_txt_width">109.0dp</dimen>
+    <dimen name="aro_filter_width">196.2dp</dimen>
+    <dimen name="aro_oval_txt_width">16.35dp</dimen>
+    <dimen name="aro_oval_txt_left">34.88dp</dimen>
+    <dimen name="aro_red_divider_height">2.18dp</dimen>
+
+    <!--activity reset bank phone-->
+    <dimen name="arb_help_height">37.06dp</dimen>
+    <dimen name="arb_img_left">9.81dp</dimen>
+
+    <!--activity reset pay pwd-->
+    <dimen name="arp_help_height">37.06dp</dimen>
+
+    <!--activity user feed-->
+    <dimen name="auf_edit_height">201.65dp</dimen>
+    <dimen name="auf_edit_width">392.4dp</dimen>
+    <dimen name="auf_edit_left">17.44dp</dimen>
+    <dimen name="auf_edit_top">18.53dp</dimen>
+
+    <!--activity income detail-->
+    <dimen name="aid_header_height">173.31dp</dimen>
+    <dimen name="aid_header_top">10.9dp</dimen>
+
+    <!--layout income item-->
+    <dimen name="aii_gift_start">5.45dp</dimen>
+    <dimen name="aii_gift_top">16.35dp</dimen>
+
+    <!--activity recharge-->
+    <dimen name="ar_filter_width">222.36dp</dimen>
+    <dimen name="ar_filter_item_width">111.18dp</dimen>
+    <dimen name="ar_quick_bank_height">76.3dp</dimen>
+    <dimen name="ar_quick_banktxt_top">18.53dp</dimen>
+    <dimen name="ar_quick_last_height">46.87dp</dimen>
+    <dimen name="ar_help_left">6.54dp</dimen>
+    <dimen name="ar_hebei_code_width">307.38dp</dimen>
+    <dimen name="ar_hebei_code_height">45.78dp</dimen>
+    <dimen name="ar_hebei_code_top">27.25dp</dimen>
+    <dimen name="ar_limit_top">9.81dp</dimen>
+    <dimen name="ar_bank_top">26.16dp</dimen>
+    <dimen name="ar_copy_top">11.99dp</dimen>
+    <dimen name="ar_copy_end">65.4dp</dimen>
+    <dimen name="ar_hebei_panel_height">305.2dp</dimen>
+
+    <!--layout wait pay item-->
+    <dimen name="lwp_cancel_width">87.2dp</dimen>
+    <dimen name="lwp_cancel_height">32.7dp</dimen>
+
+    <!--activity lend-->
+    <dimen name="ald_edit_height">46.87dp</dimen>
+    <dimen name="ald_edit_width">361.88dp</dimen>
+    <dimen name="ald_edit_left">13.08dp</dimen>
+
+    <!--activity create gesture-->
+    <dimen name="acg_top">23.98dp</dimen>
+    <dimen name="acg_grid_top">19.62dp</dimen>
+    <dimen name="acg_grid_size">35.97dp</dimen>
+    <dimen name="acg_grid_item_size">7.63dp</dimen>
+    <dimen name="acg_grid_item_margin">6.54dp</dimen>
+    <dimen name="acg_ges_size">313.92dp</dimen>
+    <dimen name="acg_ges_top">8.72dp</dimen>
+
+    <!--activity unlock gesture-->
+    <dimen name="aug_day_top">59.95dp</dimen>
+    <dimen name="aug_day_left">33.79dp</dimen>
+    <dimen name="aug_month_top">62.13dp</dimen>
+    <dimen name="aug_month_left">13.08dp</dimen>
+    <dimen name="aug_welcom_top">20.71dp</dimen>
+    <dimen name="aug_error_top">54.5dp</dimen>
+
+    <!--layout calendar-->
+    <dimen name="week_bar_height">39.24dp</dimen>
+    <dimen name="week_calendar_height">52.32dp</dimen>
+    <dimen name="month_calendar_height">313.92dp</dimen>
+    <dimen name="calendar_min_distance">5.45dp</dimen>
+    <dimen name="auto_scroll_distance">16.35dp</dimen>
+    <integer name="calendar_text_size">13</integer>
+
+    <!--activity calendar-->
+    <dimen name="ac_date_title_height">45.78dp</dimen>
+    <dimen name="ac_next_left">49.05dp</dimen>
+    <dimen name="ac_item_height">47.96dp</dimen>
+
+    <!--activity gesture reset-->
+    <dimen name="agr_pass_left">19.62dp</dimen>
+
+    <!--activity project detail-->
+    <dimen name="apd_header_height">272.5dp</dimen>
+    <dimen name="apd_bottom_height">87.2dp</dimen>
+    <dimen name="apd_rate_top">0.0dp</dimen>
+    <dimen name="apd_dura_top">10.9dp</dimen>
+    <dimen name="apd_race_top">10.9dp</dimen>
+    <dimen name="apd_progress_txt_height">21.8dp</dimen>
+    <dimen name="apd_progress_margin">32.7dp</dimen>
+    <dimen name="apd_progress_height">3.82dp</dimen>
+    <dimen name="apd_time_top">8.72dp</dimen>
+    <dimen name="apd_more_item_height">46.87dp</dimen>
+    <dimen name="apd_more_height">93.74dp</dimen>
+    <dimen name="apd_more_width">115.54dp</dimen>
+    <dimen name="apd_more_top">54.5dp</dimen>
+
+    <!--fragment project-->
+    <dimen name="fp_img_height">52.32dp</dimen>
+    <dimen name="fp_top_fitler">51.23dp</dimen>
+
+    <!--layout project item-->
+    <dimen name="fpi_height">168.95dp</dimen>
+    <dimen name="fpi_add_height">19.62dp</dimen>
+    <dimen name="fpi_pd_bottom">3.27dp</dimen>
+
+    <!--layout quick_invest-->
+    <dimen name="lqi_top">39.24dp</dimen>
+    <dimen name="lqi_top2">20.71dp</dimen>
+
+    <!--activity repayment-->
+    <dimen name="ar_header_height">43.6dp</dimen>
+    <dimen name="ar_divider_height">16.35dp</dimen>
+    <dimen name="ar_divider_top">21.8dp</dimen>
+    <dimen name="ar_divider_left">54.5dp</dimen>
+
+    <!--layout repayment item-->
+    <dimen name="lr_width">65.4dp</dimen>
+
+    <!--activity invest record-->
+    <dimen name="air_header_width">163.5dp</dimen>
+    <dimen name="air_header_height">56.68dp</dimen>
+    <dimen name="air_header_top">8.72dp</dimen>
+
+    <!--layout invest record item-->
+    <dimen name="lir_height">63.22dp</dimen>
+
+    <!--activity project info-->
+    <dimen name="api_filter_width">130.8dp</dimen>
+
+    <!--fragment project info-->
+    <dimen name="fpi_title_left">30.52dp</dimen>
+    <dimen name="fpi_item_width">109.0dp</dimen>
+    <dimen name="fpi_intru_top">13.08dp</dimen>
+
+    <!--activity calculator-->
+    <dimen name="ac_help_title_height">54.5dp</dimen>
+    <dimen name="ac_help_title_top">30.52dp</dimen>
+
+    <!--activity project base-->
+    <dimen name="apb_title_height">61.04dp</dimen>
+
+    <!--activity add card-->
+    <dimen name="aac_txt_width">87.2dp</dimen>
+
+    <!--layout message item-->
+    <dimen name="lmi_height">103.55dp</dimen>
+    <dimen name="lmi_msg_type_height">37.06dp</dimen>
+    <dimen name="lmi_msg_type_top">30.52dp</dimen>
+
+    <!--activity cash-->
+    <dimen name="ac_bank_height">76.3dp</dimen>
+    <dimen name="ac_bank_name_top">19.62dp</dimen>
+    <dimen name="ac_bank_img">27.25dp</dimen>
+    <dimen name="ac_get_all_top">10.9dp</dimen>
+    <dimen name="ac_btn_top">43.6dp</dimen>
+
+    <!--activity invest now-->
+    <dimen name="ain_agree_top">21.8dp</dimen>
+    <dimen name="ain_agree_bottom">32.7dp</dimen>
+
+    <!--layout progress dialog-->
+
+    <!--layout dialog crop-->
+    <dimen name="ldc_item_height">54.5dp</dimen>
+
+    <!--activity pay back-->
+    <dimen name="apb_title_heght">56.68dp</dimen>
+    <dimen name="apb_item_heght">54.5dp</dimen>
+    <dimen name="apb_hide_item_heght">49.05dp</dimen>
+    <dimen name="apb_title1_w">54.5dp</dimen>
+    <dimen name="apb_title2_w">141.7dp</dimen>
+    <dimen name="apb_title3_w">141.7dp</dimen>
+    <dimen name="apb_title4_w">54.5dp</dimen>
+    <dimen name="apb_start">27.25dp</dimen>
+
+    <!--activity splash-->
+    <dimen name="as_btn_width">172.22dp</dimen>
+    <dimen name="as_btn_height">43.6dp</dimen>
+    <dimen name="as_circle_bottom">147.15dp</dimen>
+    <dimen name="as_btn_bottom">65.4dp</dimen>
+    <dimen name="as_ind_distance">21.8dp</dimen>
+    <dimen name="as_ind_radiu">4.36dp</dimen>
+    <dimen name="as_bit_top">-87.2dp</dimen>
+
+    <!--app dialog-->
+    <dimen name="app_dialog_top">152.6dp</dimen>
+    <dimen name="app_dialog_top_noimg">196.2dp</dimen>
+    <!--activity review-->
+    <!--layout error msg-->
+    <dimen name="lem_top">109.0dp</dimen>
+
+    <!--layout cash help-->
+    <dimen name="lch_left">25.07dp</dimen>
+    <dimen name="lch_top">35.97dp</dimen>
+    <dimen name="lch_content_top">21.8dp</dimen>
+
+    <!--activity recharege result-->
+    <dimen name="arr_smsg_top">42.51dp</dimen>
+    <dimen name="arr_img_top">59.95dp</dimen>
+    <dimen name="arr_sbtn_width">158.05dp</dimen>
+    <dimen name="arr_sbtn_start">27.25dp</dimen>
+    <dimen name="arr_sbtn_top">74.12dp</dimen>
+    <dimen name="arr_fmsg_top">35.97dp</dimen>
+    <dimen name="arr_fbtn_top">45.78dp</dimen>
+    <dimen name="arr_fmsg_height">52.32dp</dimen>
+
+    <!--activity ym account-->
+    <dimen name="aya_plan_top">29.43dp</dimen>
+    <dimen name="aya_plan_img_width">37.06dp</dimen>
+
+    <!--activity ym plan-->
+    <dimen name="ayp_img_height">251.79dp</dimen>
+    <dimen name="ayp_min_fresh_height">293.21dp</dimen>
+    <dimen name="ayp_all_top">30.52dp</dimen>
+    <dimen name="ayp_txt_width">130.8dp</dimen>
+
+    <!--activity ym calendar-->
+    <dimen name="ym_week_calendar_height">63.22dp</dimen>
+    <dimen name="ym_month_calendar_height">379.32dp</dimen>
+    <integer name="ym_calendar_text_size">20</integer>
+    <dimen name="ym_calendar_min_distance">5.45dp</dimen>
+    <dimen name="ym_auto_scroll_distance">16.35dp</dimen>
+
+    <!--activity ym join-->
+    <dimen name="ayj_time_top">20.71dp</dimen>
+    <dimen name="ayj_income_top">30.52dp</dimen>
+    <!--activity ym join zx-->
+    <dimen name="ayj_l_top">-10.9dp</dimen>
+    <dimen name="ayj_p_top">-49.05dp</dimen>
+    <dimen name="ayj_l_width">3.27dp</dimen>
+    <dimen name="ayj_txt_top">11.99dp</dimen>
+    <dimen name="ayj_txt_end">4.36dp</dimen>
+    <dimen name="ayj_tree_height">1320.54dp</dimen>
+    <dimen name="ayj_tree_width">392.4dp</dimen>
+
+    <dimen name="ayj_z1_top">471.97dp</dimen>
+    <dimen name="ayj_z1_start">98.1dp</dimen>
+    <dimen name="ayj_z6_top">450.17dp</dimen>
+    <dimen name="ayj_z6_start">130.8dp</dimen>
+    <dimen name="ayj_z4_top">439.27dp</dimen>
+    <dimen name="ayj_z4_start">163.5dp</dimen>
+    <dimen name="ayj_z2_top">466.52dp</dimen>
+    <dimen name="ayj_z2_start">228.9dp</dimen>
+    <dimen name="ayj_z3_top">490.5dp</dimen>
+    <dimen name="ayj_z3_start">327.0dp</dimen>
+    <dimen name="ayj_z9_top">664.9dp</dimen>
+    <dimen name="ayj_z9_start">207.1dp</dimen>
+    <dimen name="ayj_z5_top">643.1dp</dimen>
+    <dimen name="ayj_z5_start">250.7dp</dimen>
+    <dimen name="ayj_z7_top">719.4dp</dimen>
+    <dimen name="ayj_z7_start">327.0dp</dimen>
+    <dimen name="ayj_z8_top">812.05dp</dimen>
+    <dimen name="ayj_z8_start">76.3dp</dimen>
+    <dimen name="ayj_z10_top">888.35dp</dimen>
+    <dimen name="ayj_z10_start">27.25dp</dimen>
+    <dimen name="ayj_z12_top">970.1dp</dimen>
+    <dimen name="ayj_z12_start">272.5dp</dimen>
+    <dimen name="ayj_z11_top">1024.6dp</dimen>
+    <dimen name="ayj_z11_start">119.9dp</dimen>
+    <dimen name="ayj_l1_height">54.5dp</dimen>
+    <dimen name="ayj_l1_start">109.0dp</dimen>
+    <dimen name="ayj_l6_height">283.4dp</dimen>
+    <dimen name="ayj_l6_start">141.7dp</dimen>
+    <dimen name="ayj_l4_height">174.4dp</dimen>
+    <dimen name="ayj_l4_start">174.4dp</dimen>
+    <dimen name="ayj_l2_height">49.05dp</dimen>
+    <dimen name="ayj_l2_start">239.8dp</dimen>
+    <dimen name="ayj_l3_height">38.15dp</dimen>
+    <dimen name="ayj_l3_start">337.9dp</dimen>
+    <dimen name="ayj_l9_height">218.0dp</dimen>
+    <dimen name="ayj_l9_start">218.0dp</dimen>
+    <dimen name="ayj_l5_height">59.95dp</dimen>
+    <dimen name="ayj_l5_start">261.6dp</dimen>
+    <dimen name="ayj_l7_height">87.2dp</dimen>
+    <dimen name="ayj_l7_start">329.18dp</dimen>
+    <dimen name="ayj_l7_top">-16.35dp</dimen>
+    <dimen name="ayj_l8_height">43.6dp</dimen>
+    <dimen name="ayj_l8_start">87.2dp</dimen>
+    <dimen name="ayj_l10_height">109.0dp</dimen>
+    <dimen name="ayj_l10_start">38.15dp</dimen>
+    <dimen name="ayj_l12_height">54.5dp</dimen>
+    <dimen name="ayj_l12_start">283.4dp</dimen>
+    <dimen name="ayj_l11_height">49.05dp</dimen>
+    <dimen name="ayj_l11_start">141.7dp</dimen>
+    <dimen name="ayj_l11_top">-21.8dp</dimen>
+    <dimen name="ayj_l11_txt_top">19.62dp</dimen>
+
+    <dimen name="ayj_p1_height">161.32dp</dimen>
+    <dimen name="ayj_p1_width">104.64dp</dimen>
+    <dimen name="ayj_p1_height_img">81.75dp</dimen>
+    <dimen name="ayj_p1_width_img">52.32dp</dimen>
+    <dimen name="ayj_p1_start">56.68dp</dimen>
+    <dimen name="ayj_t1_top">40.33dp</dimen>
+    <dimen name="ayj_ty1_top">20.71dp</dimen>
+
+    <dimen name="ayj_p2_height">165.68dp</dimen>
+    <dimen name="ayj_p2_width">109.0dp</dimen>
+    <dimen name="ayj_p2_height_img">85.02dp</dimen>
+    <dimen name="ayj_p2_width_img">55.59dp</dimen>
+    <dimen name="ayj_p2_start">185.3dp</dimen>
+    <dimen name="ayj_t2_top">41.42dp</dimen>
+    <dimen name="ayj_ty2_top">21.8dp</dimen>
+
+    <dimen name="ayj_p3_height">170.04dp</dimen>
+    <dimen name="ayj_p3_width">113.36dp</dimen>
+    <dimen name="ayj_p3_height_img">88.29dp</dimen>
+    <dimen name="ayj_p3_width_img">58.86dp</dimen>
+    <dimen name="ayj_p3_start">281.22dp</dimen>
+    <dimen name="ayj_t3_top">42.51dp</dimen>
+    <dimen name="ayj_ty3_top">22.89dp</dimen>
+
+    <dimen name="ayj_p4_height">174.4dp</dimen>
+    <dimen name="ayj_p4_width">117.72dp</dimen>
+    <dimen name="ayj_p4_height_img">91.56dp</dimen>
+    <dimen name="ayj_p4_width_img">62.13dp</dimen>
+    <dimen name="ayj_p4_start">115.54dp</dimen>
+    <dimen name="ayj_t4_top">43.6dp</dimen>
+    <dimen name="ayj_ty4_top">23.98dp</dimen>
+
+    <dimen name="ayj_p5_height">178.76dp</dimen>
+    <dimen name="ayj_p5_width">122.08dp</dimen>
+    <dimen name="ayj_p5_height_img">94.83dp</dimen>
+    <dimen name="ayj_p5_width_img">65.4dp</dimen>
+    <dimen name="ayj_p5_start">200.56dp</dimen>
+    <dimen name="ayj_t5_top">44.69dp</dimen>
+    <dimen name="ayj_ty5_top">25.07dp</dimen>
+
+    <dimen name="ayj_p6_height">183.12dp</dimen>
+    <dimen name="ayj_p6_width">126.44dp</dimen>
+    <dimen name="ayj_p6_height_img">95.92dp</dimen>
+    <dimen name="ayj_p6_width_img">66.49dp</dimen>
+    <dimen name="ayj_p6_start">78.48dp</dimen>
+    <dimen name="ayj_t6_top">45.78dp</dimen>
+    <dimen name="ayj_ty6_top">26.16dp</dimen>
+
+    <dimen name="ayj_p7_height">187.48dp</dimen>
+    <dimen name="ayj_p7_width">130.8dp</dimen>
+    <dimen name="ayj_p7_height_img">99.19dp</dimen>
+    <dimen name="ayj_p7_width_img">69.76dp</dimen>
+    <dimen name="ayj_p7_start">288.85dp</dimen>
+    <dimen name="ayj_t7_top">46.87dp</dimen>
+    <dimen name="ayj_ty7_top">27.25dp</dimen>
+
+    <dimen name="ayj_p8_height">191.84dp</dimen>
+    <dimen name="ayj_p8_width">135.16dp</dimen>
+    <dimen name="ayj_p8_height_img">102.46dp</dimen>
+    <dimen name="ayj_p8_width_img">73.03dp</dimen>
+    <dimen name="ayj_p8_start">19.62dp</dimen>
+    <dimen name="ayj_t8_top">47.96dp</dimen>
+    <dimen name="ayj_ty8_top">28.34dp</dimen>
+
+    <dimen name="ayj_p9_height">196.2dp</dimen>
+    <dimen name="ayj_p9_width">139.52dp</dimen>
+    <dimen name="ayj_p9_height_img">105.73dp</dimen>
+    <dimen name="ayj_p9_width_img">76.3dp</dimen>
+    <dimen name="ayj_p9_start">148.24dp</dimen>
+    <dimen name="ayj_t9_top">49.05dp</dimen>
+    <dimen name="ayj_ty9_top">29.43dp</dimen>
+
+    <dimen name="ayj_p10_height">196.2dp</dimen>
+    <dimen name="ayj_p10_width">139.52dp</dimen>
+    <dimen name="ayj_p10_height_img">105.73dp</dimen>
+    <dimen name="ayj_p10_width_img">76.3dp</dimen>
+    <dimen name="ayj_p10_start">-26.16dp</dimen>
+    <dimen name="ayj_t10_top">49.05dp</dimen>
+    <dimen name="ayj_ty10_top">26.16dp</dimen>
+
+    <dimen name="ayj_p11_height">200.56dp</dimen>
+    <dimen name="ayj_p11_width">143.88dp</dimen>
+    <dimen name="ayj_p11_height_img">109.0dp</dimen>
+    <dimen name="ayj_p11_width_img">79.57dp</dimen>
+    <dimen name="ayj_p11_start">74.12dp</dimen>
+    <dimen name="ayj_t11_top">49.05dp</dimen>
+    <dimen name="ayj_ty11_top">26.16dp</dimen>
+
+    <dimen name="ayj_p12_height">204.92dp</dimen>
+    <dimen name="ayj_p12_width">148.24dp</dimen>
+    <dimen name="ayj_p12_height_img">112.27dp</dimen>
+    <dimen name="ayj_p12_width_img">82.84dp</dimen>
+    <dimen name="ayj_p12_start">209.28dp</dimen>
+    <dimen name="ayj_t12_top">49.05dp</dimen>
+    <dimen name="ayj_ty12_top">26.16dp</dimen>
+
+    <!--activity ym balance-->
+    <dimen name="ayb_phone_top">46.87dp</dimen>
+    <dimen name="ayb_send_width">125.35dp</dimen>
+    <!--activity ym balance result-->
+    <dimen name="aybr_img_top">93.74dp</dimen>
+    <dimen name="aybr_qrmsg_top">13.08dp</dimen>
+    <!--layout canlendar list-->
+    <dimen name="text_size_day">21.8sp</dimen>
+    <dimen name="text_size_month">21.8sp</dimen>
+    <dimen name="text_size_day_name">17.44sp</dimen>
+    <dimen name="header_month_height">109.0dp</dimen>
+    <dimen name="selected_day_radius">17.44dp</dimen>
+    <dimen name="calendar_height">327.0dp</dimen>
+</resources>
+

@@ -1,0 +1,830 @@
+<resources>
+    <string name="app_name">大猫通讯录</string>
+    <string name="cancel">取消</string>
+    <string name="ok">确认</string>
+    <string name="OK">确定</string>
+    <string name="finish">完成</string>
+    <string name="see">查看</string>
+    <string name="all">全部</string>
+    <string name="yes">同意</string>
+    <string name="next">下一步</string>
+    <string name="default_txt">默认</string>
+    <string name="no">无</string>
+    <string name="confirm">提交</string>
+    <string name="edit">编辑</string>
+    <string name="select_all">全选</string>
+    <string name="delete">删除</string>
+    <string name="close">关闭</string>
+    <string name="back_again_exit">再按一次退出程序</string>
+    <string name="update">更新</string>
+    <string name="unknow">未知</string>
+    <string name="reset">修改</string>
+    <string name="sans_serif" translatable="false">sans-serif</string>
+
+    <string name="yuan_mark">元</string>
+    <string name="day_mark">天</string>
+    <string name="day">日</string>
+    <string name="hour_mark">小时</string>
+    <string name="hour">时</string>
+    <string name="mimut">分</string>
+    <string name="second">秒</string>
+    <string name="yuan">¥</string>
+    <string name="race_mark">%</string>
+    <string name="add_mark">+</string>
+    <string name="minus_mark">-</string>
+    <string name="wan_mark">万</string>
+    <string name="wanyuan_mark">万元</string>
+    <string name="people_mark">人次</string>
+    <string name="month">月</string>
+
+    <string name="password_digits">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ:.,?@!#$%^*()-=_+|;`~/"'&amp;&lt;&gt;\\\</string>
+    <string name="id_card_digits">0123456789xX</string>
+
+    <string name="pass_too_shore">密码不能少于8位</string>
+    <string name="pass_too_easy">密码必须包含数字和英文字母</string>
+    <string name="pass_new_same">新密码不能和旧密码相同</string>
+
+    <string name="pass_error_part">密码错误</string>
+    <string name="add_new_title">新建联系人</string>
+    <string name="select_title">选择联系人</string>
+    <string name="add_new_error1">请输入姓名</string>
+    <string name="add_new_error2">请输入手机号</string>
+
+    <string name="home_one">拨号</string>
+    <string name="home_two">联系人</string>
+    <string name="home_three">黄页</string>
+
+    <integer name="max_password">16</integer>
+    <string name="input_phone">请输入手机号码</string>
+    <string name="plant_phone">预留手机号 : </string>
+    <string name="img_identity_code">图形码</string>
+    <string name="img_identity_code_pls">请输入图形验证码</string>
+    <string name="right_identity_txt">验证码</string>
+    <string name="identity_code">请输入验证码</string>
+    <string name="identity_code_phone">验证码</string>
+    <string name="input_identity_code_phone">请输入手机验证码</string>
+    <string name="input_identity_code_phone_error">请输入正确的手机验证码</string>
+    <string name="get_identity_code">获取验证码</string>
+    <string name="get_identity_code_not">请先获取验证码</string>
+    <string name="send_again">重发（%1$d）</string>
+    <string name="identity_code_error">图形验证码错误</string>
+    <string name="phone_identity_code_error">请输入手机验证码</string>
+    <string name="phone_identity_error">验证码不正确</string>
+
+    <string name="login_hint_password">请输入您的密码</string>
+    <string name="login">登录</string>
+    <string name="user_pwd_info">登录密码</string>
+    <string name="user_pwd">密码</string>
+    <string name="forget_pwd">忘记密码?</string>
+    <string name="regist">注册</string>
+    <string name="regist_gift">注册领红包 > </string>
+    <string name="login_name_empty">用户名不能为空</string>
+    <string name="login_pwd_empty">密码不能为空</string>
+
+    <string name="edit_login_pwd">修改登录密码</string>
+    <string name="edit_login_pwd_old">旧密码</string>
+    <string name="edit_login_pwd_new">新密码</string>
+    <string name="edit_login_pwd_confirm">确认密码</string>
+    <string name="pls_login_pwd_again">请再次输入新密码</string>
+    <string name="pls_input_again">请再次输入</string>
+    <string name="edit_login_pwd_ok">确认修改</string>
+    <string name="edit_login_pwd_success">修改成功</string>
+    <string name="edit_login_pwd_msg">是否终止修改平台手机号？</string>
+
+    <string name="edit_plant_phone">修改平台手机号</string>
+    <string name="plant_phone_orignal">原手机号码</string>
+    <string name="plant_phone_new">新手机号码</string>
+    <string name="edit_plant_phone_orignal">验证原手机号码</string>
+    <string name="edit_plant_phone_new">修改新手机号码</string>
+
+    <string name="edit_blank_phone">修改银行卡预留手机号</string>
+    <string name="edit_blank_phone_info">您正在更新银行卡预留手机号</string>
+    <string name="edit_blank_phone_name">用户姓名: </string>
+    <string name="edit_blank_phone_car">已绑定银行卡: </string>
+    <string name="input_blank_phone_car_code">请输入新银行卡预留手机号</string>
+    <string name="edit_blank_phone_confirm">确定修改</string>
+
+    <string name="not_added_car">请先绑定银行卡</string>
+    <string name="added_car">已绑定</string>
+
+    <string name="pay_pwd_edit">修改支付密码</string>
+    <string name="pay_pwd_edit_info">您正在修改支付密码</string>
+    <string name="pay_pwd_set_info">您正在设置支付密码</string>
+
+    <string name="log_pwd">请输入密码</string>
+
+    <string name="reset_login_pwd">重置密码</string>
+    <string name="reset_login_success">重置密码成功！</string>
+
+    <string name="normal_uestion">常见问题</string>
+    <string name="custom_service">客服电话</string>
+    <string name="advice">给我鼓励</string>
+
+    <string name="product_info">项目信息</string>
+    <string name="pre_risk_control">贷前风控</string>
+    <string name="after_risk_control">贷后风控</string>
+    <string name="risk_control_info">风控信息</string>
+    <string name="risk_evaluate">借款人风险评估</string>
+    <string name="car_value_evaluate">车辆价值评估</string>
+    <string name="car_chance_control">车辆抵押率控制</string>
+    <string name="car_control">抵押车辆监管/留置</string>
+    <string name="car_info">车辆手续</string>
+    <string name="law_info">涉诉信息</string>
+    <string name="product_risk_plan">项目风险保障方案</string>
+    <string name="thing_handle">抵押物处理</string>
+    <string name="assurement">担保机构担保</string>
+
+    <string name="base_info">基本信息</string>
+    <string name="product_code">项目编号</string>
+    <string name="invest_tatol">借款总金额</string>
+    <string name="invest_use">借款用途</string>
+    <string name="invest_company">借款企业</string>
+
+    <string name="company_info">企业信息</string>
+    <string name="company_name">企业名称</string>
+    <string name="company_person">企业法人</string>
+    <string name="company_code">统一信用代码</string>
+    <string name="company_address">企业地址</string>
+
+    <string name="invest_user_birth">出生日期</string>
+    <string name="invest_marry">婚否</string>
+    <string name="invest_study">学历</string>
+    <string name="invest_user_profession">职业</string>
+    <string name="invest_user_credit">征信</string>
+    <string name="invest_user_house">房产</string>
+
+    <string name="invest_pledge_info">抵押信息</string>
+    <string name="invest_pledge_way">抵押方式</string>
+    <string name="car_pledge_name">车辆名称</string>
+    <string name="car_pledge_code">车辆号牌</string>
+    <string name="car_pledge_color">车辆颜色</string>
+    <string name="car_pledge_lvl">排量</string>
+
+    <string name="product_introduce">项目介绍</string>
+    <string name="pay_back_orignal">还款来源</string>
+
+
+    <string name="waitting_pay">待支付</string>
+    <string name="expect_income_yuan">到期收益（元）</string>
+    <string name="end_time">结束时间：</string>
+    <string name="continue_pay">继续支付</string>
+
+    <string name="change">兑换</string>
+    <string name="change_success">兑换成功</string>
+    <string name="repay">返现券</string>
+    <string name="use_product">使用项目： </string>
+    <string name="resource">来源： </string>
+    <string name="change_gift">兑换红包</string>
+    <string name="change_gift_code">请输入兑换码兑换红包</string>
+    <string name="confirm_change">确认兑换</string>
+    <string name="not_use_coupon">不使用红包</string>
+    <string name="gift_rule">使用规则： </string>
+    <string name="gift_date">有效期至： </string>
+
+    <string name="user_info">个人信息</string>
+    <string name="avast">头像</string>
+    <string name="user_id">用户ID</string>
+    <string name="copy">复制</string>
+    <string name="user_name">姓名</string>
+    <string name="user_sex">性别</string>
+    <string name="user_birth">生日</string>
+
+    <string name="about">关于网筹金融</string>
+    <string name="about_version">版本说明</string>
+    <string name="website">官方网站</string>
+    <string name="website_value">www.jinrongweb.com</string>
+    <string name="webkit">官方微信</string>
+    <string name="webkit_value">wangchoujinrong</string>
+
+    <string name="account">账户设置</string>
+    <string name="phone">400-110-1122</string>
+    <string name="phone_line"><u>400-110-1122</u></string>
+    <string name="phone_dlg">网筹客服：400-110-1122</string>
+    <string name="ok_dlg">呼叫</string>
+    <string name="work_time">服务时间：9:00-18:00</string>
+    <string name="account_safe">账户资金安全</string>
+    <string name="gesture_pwd">手势密码</string>
+    <string name="gesture_hide">隐藏手势轨迹</string>
+    <string name="gesture_edit">修改手势密码</string>
+    <string name="gesture_edit_help">8～16位字母和数字组合</string>
+    <string name="gesture_edit_ok">验证</string>
+    <string name="gesture_edit_title">验证登录密码</string>
+    <string name="help_center">帮助中心</string>
+    <string name="about_us">关于我们</string>
+    <string name="quit">安全退出</string>
+    <string name="notification">消息订阅</string>
+
+    <string name="feed">意见反馈</string>
+    <string name="feed_info">请写下您的意见和建议</string>
+
+
+    <string name="notification_info">设置消息是否通知</string>
+    <string name="notification_back">账户回款</string>
+    <string name="notification_back_info">账户中项目的回款信息</string>
+    <string name="notification_gift">红包到期</string>
+    <string name="notification_gift_info">红包即将到期提醒</string>
+    <string name="notification_pay">充值提现</string>
+    <string name="notification_pay_info">账户进行充值与体现操作成功后</string>
+
+    <string name="notifi_plant">站内消息</string>
+    <string name="not_read">未读</string>
+    <string name="had_read">已读</string>
+    <string name="all_read">标为已读</string>
+    <string name="close_edit">关闭编辑</string>
+
+    <string name="back_plan">还款计划</string>
+    <string name="back_time">还款时间</string>
+    <string name="back_money">还款金额</string>
+    <string name="back_state">状态</string>
+    <string name="ok_state">以还款</string>
+    <string name="back_priod">还款期数</string>
+    <string name="repay_priod">回款期数</string>
+    <string name="repay_money">回款金额</string>
+    <string name="repay_time">回款时间</string>
+
+    <string name="priod">期数</string>
+
+    <string name="invest_history">投资记录</string>
+    <string name="most">一鸣惊人</string>
+    <string name="last">一锤定音</string>
+    <string name="last_info">未被获得，还有机会呦！</string>
+
+    <string name="end_income">到期收益</string>
+    <string name="lend_money">出借金额</string>
+    <string name="lend_money_yuan">出借金额（元）</string>
+    <string name="lend_rate">借款利率</string>
+    <string name="lend_durat">借款期限</string>
+    <string name="lend_durat_day">借款期限（天）</string>
+    <string name="plant_add_rate">平台加息</string>
+    <string name="use_back">使用返现券</string>
+    <string name="use_add">使用加息券</string>
+    <string name="rate_method">计息方式</string>
+    <string name="rate_method_nextday">放款次日计息</string>
+
+    <string name="pay_method">还款方式</string>
+    <string name="pay_method_ayb">按月付息，到期还本</string>
+    <string name="last_time">剩余时间</string>
+    <string name="last_money">剩余可投</string>
+    <string name="last_money_text">可投</string>
+    <string name="pay_now">立即投资</string>
+    <string name="payment">回款计划</string>
+    <string name="contract">项目合同</string>
+    <string name="contract_no_msg">合同未生成</string>
+    <string name="contract_error_msg">合同读取失败</string>
+    <string name="contract_mark">《借款协议》</string>
+    <string name="contract_info">《借款协议》的格式和条款</string>
+    <string name="contract_info2">同意《借款协议》的格式和条款,已充分了解并知晓产品风险，愿意承担相关风险。</string>
+
+    <string name="lend_money_nomark">借款金额</string>
+    <string name="lend_money_txt">借款金额：</string>
+    <string name="lend_duration_txt">借款期限：</string>
+    <string name="min_money">起投金额</string>
+    <string name="assure">担保方式</string>
+    <string name="assure_company_other_three">第三方担保机构</string>
+    <string name="assure_company">担保机构</string>
+    <string name="assure_company_zbgx">北京中保国信融资担保有限公司</string>
+    <string name="back_deadline">还款进度 共%1$d期 已还%2$d期</string>
+    <string name="invest_back_deadline">共%1$d期 已还%2$d期</string>
+
+
+    <string name="deal_info">交易明细</string>
+    <string name="filter">筛选</string>
+    <string name="plant_reward">平台奖励</string>
+    <string name="pay">投资</string>
+    <string name="pay_back">回款</string>
+
+    <string name="recharge">充值</string>
+    <string name="invest_all">全投</string>
+    <string name="cannot_use_coupon">暂无可用</string>
+
+
+    <string name="user_lend">我要借款</string>
+    <string name="car_num_loc">请选择车辆上牌城市</string>
+
+    <string name="query_error_msg">查询失败，请稍后再试</string>
+
+    <string name="gift">红包</string>
+    <string name="effect_gift">全部通话</string>
+    <string name="cash_gift">未接来电</string>
+    <string name="get_cash_gift">立即领取</string>
+    <string name="dis_gift">陌生号码</string>
+
+    <string name="explain">名词解释</string>
+
+    <string name="date">账户日历</string>
+    <string name="date_title">%1$d年%2$d月</string>
+    <string name="wait_back">当月待回金额</string>
+    <string name="already_back">当月已回金额</string>
+    <string name="no_event">无事件</string>
+
+    <string name="identify_success">发送成功,稍后请注意查收</string>
+
+    <string name="network_error">断网了，请检查网络</string>
+    <string name="getaccount_info_error">获取账户信息失败，请稍后重试</string>
+    <string name="request_error">网络请求失败，请稍后重试</string>
+    <string name="not_login_error">登录用户不存在</string>
+    <string name="not_login_msg">请登录</string>
+    <string name="login_error">登录失败，请重试。</string>
+    <string name="logout_error">安全退出失败，请重试。</string>
+
+    <string name="gesture_confirm_error">两次绘制不一样，请重新绘制</string>
+    <string name="gesture_again">重新绘制</string>
+    <string name="gesture_set">设置手势密码</string>
+    <string name="pay_pwd_set">设置支付密码</string>
+    <string name="pwd_input_error">密码错误，您还有%1$d次机会</string>
+    <string name="gesture_min_point">至少绘制4个点，请重新绘制</string>
+    <string name="login_other">使用密码登录</string>
+    <string name="gesture_login_short_msg">输入长度不够，请重试</string>
+    <string name="welcome_msg">欢迎， </string>
+
+
+    <string name="calculator">收益计算器</string>
+    <string name="calculator_help">计算器使用规则</string>
+    <string name="calculator_txt">计算器</string>
+    <string name="calculator_type1_txt">先息后本</string>
+    <string name="calculator_type2_txt">等本等息</string>
+    <string name="calculate">计算</string>
+    <string name="analog_money">拟投金额</string>
+    <string name="analog_money_info">请输入拟投金额</string>
+    <string name="rate">年化利率</string>
+    <string name="rate_info">请输入年化利率</string>
+    <string name="duration">项目期限</string>
+    <string name="duration_info">请输入项目期限</string>
+    <string name="expect">预计收益</string>
+
+    <string name="get_detail">收益明细 > </string>
+    <string name="get_detail_title">收益明细</string>
+    <string name="get_all">总收益（元）</string>
+    <string name="get_product">项目收益</string>
+    <string name="get_product_add">项目加息收益</string>
+    <string name="get_product_add_txt">项目加息总收益（元）</string>
+    <string name="get_gift_txt">红包总收益（元）</string>
+    <string name="get_product_txt">项目总收益（元）</string>
+
+    <string name="back_all">回款总额（元）</string>
+    <string name="back_yh">已回金额（元）</string>
+    <string name="back_wait">待回金额（元）</string>
+
+    <string name="jiaxi_add">加息券收益</string>
+    <string name="pre_back_add">提前还款奖励</string>
+
+    <string name="get_gift">红包收益</string>
+    <string name="get_friend">合伙人奖励</string>
+    <string name="active_income">活期利息</string>
+    <string name="active_invest">活动奖励</string>
+
+    <string name="balance">可用余额</string>
+    <string name="pre_come_time">预计到账时间</string>
+
+
+    <string name="login_regist">登录/注册</string>
+    <string name="new_user">新手专享</string>
+    <string name="plant_data">平台数据</string>
+    <string name="recommend">推荐项目</string>
+    <string name="lend_now">立即出借</string>
+
+    <string name="hebei">河北银行资金存管</string>
+    <string name="home">收藏</string>
+    <string name="product">拨号</string>
+    <string name="product_mark">项目: </string>
+    <string name="user">菜单</string>
+    <string name="add">新建</string>
+    <string name="scan">扫名片</string>
+    <string name="search">搜索</string>
+
+    <string name="add_card">添加银行卡</string>
+    <string name="real_name">真实姓名</string>
+    <string name="input_real_name">请输入姓名</string>
+    <string name="user_code">身份证号</string>
+    <string name="input_user_code">请输入身份证号</string>
+    <string name="card_code">银行卡</string>
+    <string name="card_code_tx">银行卡号</string>
+    <string name="card_phone">预留手机号</string>
+    <string name="input_card_num">姓名</string>
+    <string name="phone_num_txt">电话</string>
+    <string name="input_card_num_error">请输入正确的银行卡号</string>
+    <string name="input_card_phone">请输入银行卡预留手机号</string>
+    <string name="card_phone_mark">银行卡预留手机号: </string>
+    <string name="card_phone_txt">银行卡预留手机号</string>
+    <string name="adding_card_info">您正在进行银行卡绑定</string>
+
+    <string name="no_card">未绑卡</string>
+    <string name="no_card_msg">请绑定银行卡后重试</string>
+    <string name="no_last_money_msg">获取账户余额失败，请稍后重试</string>
+
+    <string name="state_raising">筹款中</string>
+    <string name="state_full">待放款</string>
+    <string name="state_paying">回款中</string>
+    <string name="state_finish">已结束</string>
+
+    <string name="yuanmeng">圆梦活动</string>
+
+    <string name="mine_invest">我的投资</string>
+    <string name="waiting_pay">待支付</string>
+    <string name="waiting_pay_value">待支付(%1$d)</string>
+
+    <string name="limit_explain">限额说明</string>
+    <string name="cash_explain">提现说明</string>
+
+    <string name="blank_open">银行存管开户</string>
+    <string name="blank_open_msg">您还未开通银行存管账户，是否马上去开通？</string>
+    <string name="blank_set">银行卡设置</string>
+    <string name="blank_release">解绑</string>
+    <string name="tail_num">尾号</string>
+    <string name="open_later"><u>稍后开通</u></string>
+    <string name="blank_warn_info">为了您的正常使用和资金安全，请开通托管账户</string>
+    <string name="regist_success">您已成功注册！</string>
+    <string name="regist_success_gift">红包已成功发放到您的账户</string>
+
+
+    <string name="user_test">用户测评</string>
+    <string name="user_test_again">重新测评</string>
+    <string name="user_test_msg">还在测评中，是否退出？</string>
+
+    <string name="account_info">账户信息</string>
+    <string name="account_user_info">查看个人信息</string>
+    <string name="account_blank">存管账户</string>
+    <string name="account_real_name">实名认证</string>
+    <string name="account_auto">自动出借授权</string>
+    <string name="account_auto_debt">免密授权</string>
+    <string name="secret_auto">免密授权</string>
+    <string name="account_auto_open">您已开通自动出借</string>
+    <string name="account_no_pwd">您已开通免密授权</string>
+    <string name="account_pay_code">支付密码</string>
+
+    <string name="already_set">已设置</string>
+    <string name="already_close">已关闭</string>
+
+    <string name="cash">提现</string>
+    <string name="friend">合伙人</string>
+    <string name="bank_card_owner">持卡人：</string>
+
+    <string name="have_friend">我有推荐人（选填）</string>
+    <string name="friend_phone">请输入推荐人手机号</string>
+    <string name="regist_now">立即注册</string>
+    <string name="regist_agree">我已阅读并同意</string>
+    <string name="regist_agreement">《网筹金融网站服务协议》</string>
+    <string name="regist_agreement2">我已阅读并同意《网筹金融网站服务协议》 并充分了解并知晓产品风险，愿意承担相关风险。</string>
+
+    <string name="all_money">总资产</string>
+    <string name="all_money_txt">总资产（元）</string>
+    <string name="frozen_money">冻结余额</string>
+    <string name="yuanmeng_money">圆梦计划</string>
+    <string name="wait_org_money">待收项目本金</string>
+    <string name="wait_income_money">待收项目收益</string>
+    <string name="wait_add_money">待收项目加息</string>
+    <string name="wait_coupon_money">待收红包</string>
+    <string name="wait_income_yuan">待收收益（元）</string>
+    <string name="had_income_yuan">已收收益（元）</string>
+    <string name="wait_gift_yuan">待收红包（元）</string>
+    <string name="had_gift_yuan">已收红包（元）</string>
+
+    <string name="last_money_txt">余额： </string>
+    <string name="org_money">本金</string>
+
+    <string name="new_notice">最新公告</string>
+    <string name="no_notice">暂时没有公告</string>
+
+    <string name="active_bank_msg">您尚未激活该账户，请前往去激活账户！</string>
+    <string name="go">前往</string>
+
+    <string name="cancel_pay">您确定要取消本次投资吗？</string>
+    <string name="cancel_pay_ok">确定取消</string>
+    <string name="cancel_pay_not">再想想</string>
+
+    <string name="not_pay_msg">您有一笔未完成的支付，请先处理！</string>
+    <string name="cant_pay_msg1">您已多次超时支付\n请%1$d时%2$d分%3$d秒后再进行投资！</string>
+    <string name="cant_pay_msg2">您已多次超时支付\n请%1$d分%2$d秒后再进行投资！</string>
+    <string name="cant_pay_msg3">您已多次超时支付\n请%1$d秒后再进行投资！</string>
+
+    <string name="open_bank_msg">您将开启自动出借授权</string>
+    <string name="close_bank_msg">您将关闭自动出借授权</string>
+    <string name="no_pwd_msg">您将开启免密授权</string>
+    <string name="remind_msg">您确定要在开标前5分钟设置提醒吗？</string>
+    <string name="remind_add_success_msg">设置成功</string>
+    <string name="remind_add_fail_msg">设置失败</string>
+    <string name="remind_delete_msg">您确定要删除开标提醒吗？</string>
+    <string name="remind_delete_success_msg">删除成功</string>
+    <string name="remind_delete_fail_msg">删除失败</string>
+    <string name="exit_msg">确定退出网筹金融吗？</string>
+    <string name="copy_msg">文本已复制</string>
+    <string name="app_link_copy">复制链接</string>
+    <string name="annual_bill_title">账单小故事</string>
+    <string name="annual_bill_more_title">我的年账单</string>
+    <string name="annual_bill">年度账单</string>
+    <string name="annual_bill_share">晒一晒</string>
+    <string name="annual_bill_more">更多数据</string>
+    <string name="annual_bill_sharetitle">网筹金融年度账单</string>
+    <string name="annual_bill_sharedescription">有爱17行 | 年度账单出炉，每一次选择都值得被回忆！</string>
+    <string name="annual_bill_share_success">分享成功，红包已到账</string>
+    <string name="share_success_txt">分享成功啦</string>
+    <string name="share_fail_txt">分享失败啦</string>
+    <string name="share_fail_noclient_txt">未安装客户端</string>
+    <string name="share_cancel_txt">分享取消了</string>
+
+    <string name="push_state_msg">您已禁止消息通知，是否去打开？</string>
+
+    <string name="get_money_time">预计到账时间</string>
+    <string name="pay_and_get">到账时间</string>
+    <string name="pay_and_get_msg">放款到账</string>
+    <string name="income_state_wait">待</string>
+    <string name="income_state_had">已</string>
+    <string name="income_value_add">（+%1$s%%）</string>
+    <string name="income_value_cupon">（%1$s%%）</string>
+
+    <string name="quick_recharge">快捷充值</string>
+    <string name="other_recharge">转账充值</string>
+    <string name="limit">限额： </string>
+    <string name="user_last_money">当前可用余额： </string>
+    <string name="recharge_help">输入充值金额，100元起充 </string>
+    <string name="recharge_btn">确认充值</string>
+    <string name="recharge_btn_with_value">确认充值%1$s元</string>
+    <string name="invest_btn_with_value">确认投资：%1$s元</string>
+    <string name="invest_btn_txt">确认支付</string>
+    <string name="recharge_help_msg">可直接通过网上银行、手机银行或银行柜台的方式将资金转账到您的河北银行存管账户。</string>
+    <string name="hebei_msg">河北银行存管账户</string>
+    <string name="hebei_name">收款方户名： </string>
+    <string name="hebei_bank">收款开户行： </string>
+    <string name="hebei_provence">收款方开户省份： </string>
+    <string name="hebei_bank_value">河北银行股份有限公司</string>
+    <string name="hebei_provence_value">河北省石家庄市</string>
+
+    <string name="lockscreen_access_pattern_start">"开始绘制图案"</string>
+    <string name="lockscreen_access_pattern_cleared">"图案已清除"</string>
+    <string name="lockscreen_access_pattern_cell_added">"已添加单元格"</string>
+    <string name="lockscreen_access_pattern_detected">"图案绘制完成"</string>
+    <string name="gesture_create_msg">绘制手势密码</string>
+
+    <string name="today"> 今天 </string>
+
+    <!--<string name="best">优质项目(%1$d)</string>-->
+    <string name="best">优质项目</string>
+    <string name="account_last">账户可用余额</string>
+    <string name="invest_last">项目剩余可投</string>
+    <string name="invest_money_hint">100元起投，1的整数倍</string>
+    <string name="invest_money2_hint">请输入100的整数倍</string>
+
+    <string name="lend_success_msg">恭喜，您的贷款申请已提交！</string>
+    <string name="lend_hint_msg">请您保持手机畅通，后续贷款经理电话与您取得联系。</string>
+    <string name="lend_more_msg">了解更多产品信息，请拨打客户服务热线</string>
+
+    <string name="user_type_money">平台待收总限额：</string>
+
+    <string name="last_question">上一题</string>
+    <string name="now_question">第%1$d/10题</string>
+
+    <string name="msg_type_system">系</string>
+    <string name="get_all_cash">全部提现</string>
+    <string name="cash_value">提现金额</string>
+    <string name="real_value">实际到账</string>
+    <string name="cash_conf">确认提现</string>
+    <string name="fee_value">手续费</string>
+    <string name="cash_max_value">单笔提现金额应小于等于%1$s元</string>
+    <string name="cash_success_msg">申请提现已提交！</string>
+    <string name="cash_card">提现至</string>
+    <string name="get_cash_value">到账金额</string>
+    <string name="cash_detail">提现详情</string>
+    <string name="cash_input_msg">请输入提现金额</string>
+    <string name="cash_history">提现记录</string>
+    <string name="cash_dot_error">输入提现金额不正确</string>
+
+    <string name="charge_failed1">充值失败！</string>
+    <string name="charge_failed2">失败原因： </string>
+
+    <string name="charge_success1">成功充值</string>
+    <string name="charge_success2">元！</string>
+    <string name="charge_success3">继续充值</string>
+    <string name="charge_title">充值详情</string>
+
+    <string name="invest_result">投资详情</string>
+    <string name="invest_success1">恭喜您投标受理成功！额度为</string>
+    <string name="invest_success2">继续投资</string>
+
+    <string name="invest_fail1">抱歉，您的本次投资受理失败！</string>
+    <string name="invest_fail2">重新投资</string>
+
+    <string name="people_not_granted">没有权限，获取联系人失败，请授权后重试</string>
+    <string name="audio_not_granted">没有录音权限，请授权后重试</string>
+    <string name="camera_not_granted">没有权限，打开相册失败</string>
+    <string name="from_camera">拍照</string>
+    <string name="from_picture">从相册选择</string>
+
+    <string name="load_more">加载更多</string>
+    <string name="load_new">正在加载</string>
+    <string name="load_null_more">没有其他的项目了</string>
+    <string name="all_log">查看全部通话记录</string>
+    <string name="new_people">新建联系人</string>
+    <string name="save_people">保存到已有联系人</string>
+    <string name="edit_people">编辑联系人</string>
+    <string name="stop_people">阻止此号码</string>
+    <string name="phone_detail_title">通话详情</string>
+    <string name="phone_log_title">通话记录</string>
+    <string name="phone_detail_error">获取通话详情失败</string>
+    <string name="phone_txt">手机</string>
+    <string name="add_phone_txt">添加号码</string>
+
+    <string name="sex_man">男</string>
+    <string name="sex_woman">女</string>
+
+    <string name="start_use">立即体验</string>
+
+    <string name="identify_send_error_msg">请先输入正确的手机号</string>
+    <string name="input_last_money_error">尾标小于100元，请将尾标投满</string>
+    <string name="input_money_error">单次投资金额不得小于100元</string>
+    <string name="input_account_money_error">账户余额不足，请充值后重试</string>
+    <string name="no_net_error">断网了，请检查网络！</string>
+    <string name="no_record_error">暂无数据！</string>
+    <string name="no_gift_error">暂无红包！</string>
+    <string name="cofm_pwd_error">两次输入密码不一致，请重新输入</string>
+
+    <string name="after_risk_msg">项目无异常</string>
+
+    <string name="invest_over">已结束</string>
+
+    <string name="charge_input_error">请输入充值金额</string>
+
+    <string name="next_back_msg">下期回款：</string>
+    <string name="open_bank_success_msg">实名认证成功</string>
+
+    <string name="gift_rule_msg">单笔投≥%1$s元，项目期限≥%2$s天</string>
+    <string name="gift_select_error">请先输入投资金额</string>
+
+    <string name="set_pay_pass_error">获取电子账号失败，请稍后重试</string>
+
+    <string name="useful_input_error">输入金额不得超过可用余额</string>
+    <string name="over_useful_input_error">输入金额不得超过项目可投</string>
+    <string name="useful_error">用户余额不足，请充值后重试</string>
+    <string name="hundrerd_error">请输入100的整数倍</string>
+    <string name="last_more_error">超过可投金额，请修改投资金额后重试</string>
+    <string name="select_gift_error">红包不匹配，请修改后重试</string>
+
+    <string name="time_out_error">网络连接超时</string>
+
+    <string name="charge_bank_info_error">获取银行卡信息失败，请确保已绑定银行卡后重试</string>
+    <string name="success_msg">成功</string>
+    <string name="use_gift_success_msg">领取成功</string>
+
+    <string name="recharge_min_msg">单笔充值金额不能小于100元</string>
+
+    <string name="edit_avast_msg">当前版本不能编辑头像</string>
+
+    <string name="gesture_reset_error">手势密码修改失败，请稍后重试</string>
+
+    <string name="must_update_msg">您的软件需要更新后才能继续使用</string>
+    <string name="have_update_msg">软件有新的版本，是否更新？</string>
+
+    <string name="phone_log">没有读取权限，请赋予权限后重试</string>
+    <string name="written_storage_msg">没有下载权限，请赋予权限后重试</string>
+    <string name="down_msg">正在下载...</string>
+    <string name="down_sucess_msg">下载完成，请安装后使用</string>
+
+    <string name="cash_too_msg">余额不足</string>
+    <string name="invest_success_error_msg">获取金额失败！</string>
+
+    <string name="real_not_msg">您还未进行实名认证，请实名认证后进行投资</string>
+    <string name="user_not_test_msg">您还未进行测评，请测评后进行投资</string>
+
+    <string name="single_login_msg">您的账号已在其他设备登录，如果不是您本人进行的操作，请尽快修改密码。</string>
+
+
+    <string name="gesture_failed_title">手势密码已失效</string>
+    <string name="gesture_failed_msg">请重新登录网筹金融客户端，登陆后可在“我的-账户设置”中管理手势密码</string>
+
+    <string name="card_help_msg">温馨提示：\n
+1、为了您的资金安全，银行卡仅限同时绑定一张本人名下的储蓄卡，请尽量绑定“限额说明”中额度较大的；\n
+2、快捷支付仅支持一类银行卡；\n
+3、如需更换银行卡，请联系客服人员进行解绑审核与资料提交；\n
+4、如有其他疑问，请联系在线客服或拨打客服热线：400-110-1122</string>
+
+    <string name="cash_help_title">提现说明</string>
+    <string name="q1">Q1: </string>
+    <string name="q1_value">身份认证、银行存管账户开通、提现银行卡均设置成功后，才能进行提现操作；</string>
+    <string name="q2">Q2: </string>
+    <string name="q2_value">提现必须绑定为银行借记卡，不支持存折、信用卡提现；</string>
+    <string name="q3">Q3: </string>
+    <string name="q3_value">单账户每日限提现笔数为20笔，每日提现总金额上限为500万元（快捷与转账充值总合计）；</string>
+    <string name="q4">Q4: </string>
+    <string name="q4_value">提现规则\n
+        ① 工作日工作时间（早8：30~下午16：00时），单笔提现≤500万元，当日到账。\n
+        ② 工作日非工作时间，单笔提现≤5万元，当日到账。\n
+        ③ 节假日时间段内提现（全天24小时）单笔提现≤50万，当日到账。</string>
+    <string name="q5">Q5: </string>
+    <string name="q5_value">提现费用</string>
+    <string name="q5_value1">【单笔≤20万元，2元】</string>
+    <string name="q5_value2">【单笔20~50万元（＞20万≤50万），5元】</string>
+    <string name="q5_value3">【单笔＞50万元，10元】；</string>
+    <string name="q6">如有疑问，请拨打客服电话400–110–1122。</string>
+
+    <string name="dream_plan">圆梦计划</string>
+    <string name="dream_account">圆梦账户</string>
+    <string name="dream_wait_all">总待投金额</string>
+    <string name="dream_back_all">已回总金额</string>
+    <string name="dream_asset_all">圆梦总金额</string>
+    <string name="dream_balance">圆梦余额</string>
+
+    <string name="dream_output_msg">转出金额</string>
+    <string name="dream_input_msg">转入金额</string>
+    <string name="dream_input_help_msg">请输入转入金额,1的整数倍</string>
+    <string name="dream_output_help_msg">请输入转出金额</string>
+    <string name="dream_output_btn">确认转出</string>
+    <string name="dream_input_btn">确认转入</string>
+    <string name="dream_output_success">转出成功</string>
+    <string name="dream_input_success">转入成功</string>
+    <string name="dream_output_success_msg">成功转出</string>
+    <string name="dream_input_success_msg">成功转入</string>
+    <string name="dream_input_title">转入</string>
+    <string name="dream_output_title">转出到账户余额</string>
+    <string name="dream_user_account">账户余额</string>
+    <string name="dream_user_account_see">查看账户余额</string>
+    <string name="dream_qr_msg">关注“网筹金融”，领取大红包！</string>
+    <string name="dream_qr_img_msg">是否将二维码保存到本地？</string>
+    <string name="dream_qr_img_success">保存成功</string>
+    <string name="dream_qr_img_fail">保存失败</string>
+
+    <string name="dream_input_error_msg">请输入正确的金额</string>
+
+    <string name="dream_wait_all_yuan">总待投金额(元)</string>
+    <string name="dream_back_all_yuan">已回总金额(元)</string>
+    <string name="dream_asset_all_yuan">圆梦总金额(元)</string>
+    <string name="dream_balance_yuan">圆梦可用余额(元)</string>
+
+    <string name="dream_asset">圆梦资产</string>
+
+    <string name="dream_gc_txt">购车计划</string>
+    <string name="dream_zx_txt">装修计划</string>
+    <string name="dream_ye_txt">育儿计划</string>
+    <string name="dream_ly_txt">旅游计划</string>
+    <string name="dream_lq_txt">攒零钱计划</string>
+
+    <string name="dream_gc_title">购车计划账户</string>
+    <string name="dream_zx_title">装修计划账户</string>
+    <string name="dream_ye_title">育儿计划账户</string>
+    <string name="dream_ly_title">旅游计划账户</string>
+    <string name="dream_lq_title">攒零钱计划账户</string>
+
+    <string name="dream_state_not">去加入</string>
+
+    <string name="dream_wait_packege">待领取</string>
+    <string name="dream_can_packege">未领取</string>
+    <string name="dream_had_packege">已领取</string>
+
+    <string name="dream_last_help">每一项圆梦计划将从“圆梦账户余额”中扣除，圆梦余额也可转出至账户余额中。</string>
+    <string name="dream_total_wait_help">所有圆梦活动中待投出的资金总和。</string>
+    <string name="dream_total_help">圆梦总资产是圆梦活动中所有已加入的本金及本金产生的收益。</string>
+    <string name="dream_total_back_help">已结束的圆梦计划，且已成功返回至账户可用余额中的总金额。</string>
+
+    <string name="dream_ly_all">旅游计划总金额（元）</string>
+    <string name="dream_gc_all">购车计划总金额（元）</string>
+    <string name="dream_zx_all">装修计划总金额（元）</string>
+    <string name="dream_yr_all">育儿计划总金额（元）</string>
+    <string name="dream_lq_all">攒零钱计划总金额（元）</string>
+
+    <string name="dream_input">账户余额转入</string>
+    <string name="dream_input_help">转入金额后，将用于您的每项梦想计划中。当计划进入
+每期存入日时，系统将自动从您的圆梦余额中扣除。</string>
+    <string name="dream_output">圆梦余额转出</string>
+    <string name="dream_output_help">转出金额后，您的圆梦余额将转至账户可用余额中，请注意您的每项计划是否需要。</string>
+
+    <string name="dream_expect">预计总收益（元）</string>
+    <string name="dream_back">已回总金额（元）</string>
+    <string name="dream_wait">待投金额（元）</string>
+
+    <string name="dream_join_money">每月固定存入</string>
+    <string name="dream_join_duration">固定期限</string>
+    <string name="dream_join_duration_value">个月</string>
+    <string name="dream_join_time">每月存入日期</string>
+    <string name="dream_join_time_value">请选择日期</string>
+    <string name="dream_first_time">首次存入日：</string>
+    <string name="dream_income">预计最低收益</string>
+
+    <string name="dream_rule">活动规则</string>
+    <string name="dream_guide">圆梦指南</string>
+    <string name="dream_quit_msg">您确定要终止%1$s么？</string>
+    <string name="dream_quit_ok">确认退出</string>
+
+    <string name="dream_error_msg1">请选择25号之前的日期。</string>
+    <string name="dream_error_msg2">您选择的日期超过活动范围。</string>
+
+    <string name="dream_detail">圆梦明细</string>
+    <string name="dream_zx_gift">领奖专区</string>
+    <string name="dream_not_login">立即登录</string>
+    <string name="dream_not_join">未加入</string>
+    <string name="dream_now_join">立即加入</string>
+    <string name="dream_join_period">已加入%1$s期</string>
+    <string name="dream_finish">您已完成12期</string>
+    <string name="dream_close">您已终止</string>
+    <string name="dream_join_again">再次加入</string>
+    <string name="dream_quit"><u>我要退出</u></string>
+    <string name="dream_quit_success">您已成功退出%1$s</string>
+    <string name="dream_join_confirm">您确定要加入%1$s吗？</string>
+    <string name="dream_join_success">您已成功加入%1$s</string>
+    <string name="dream_join_btn">进入%1$s活动页</string>
+    <string name="dream_join_day">每月%1$s日</string>
+    <string name="dream_recharge">去充值</string>
+    <string name="dream_next">距下期购买： </string>
+
+    <string name="dream_use_gift_title">恭喜您</string>
+    <string name="dream_use_gift_content">成功领取现金奖励</string>
+    <string name="dream_use_gift_btn">查看账户</string>
+    <string name="dream_over">活动已结束</string>
+</resources>

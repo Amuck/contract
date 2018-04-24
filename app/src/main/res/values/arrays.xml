@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="calendar_week">
+        <item>日</item>
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+    </string-array>
+
+    <string-array name="question_title">
+        <item>1、请问您的年龄处于</item>
+        <item>2、您的学历</item>
+        <item>3、您的家庭年收入为</item>
+        <item>4、您的主要收入来源是</item>
+        <item>5、在您每年的家庭收入中，可用于金融投资（储蓄存款除外）的比例为</item>
+        <item>6、您进行投资的主要目的是</item>
+        <item>7、您以往的投资以什么产品为主</item>
+        <item>8、您有多少年投资股票、基金、外汇、期货、金融衍生产品等风险投资品的经验 （投资经历越长，您的风险承受能力越强）</item>
+        <item>9、投资期限的偏好</item>
+        <item>10、您是否曾经投资过非保本金融投资产品并且熟悉互联网？包括余额宝类产品（即本项目如果答案为否，则不适于投资网络借贷产品）</item>
+    </string-array>
+
+    <string-array name="question1">
+        <item>22岁以下</item>
+        <item>23-30岁</item>
+        <item>31-40岁</item>
+        <item>41-50岁</item>
+        <item>51-60岁</item>
+        <item>60岁以上</item>
+    </string-array>
+    <string-array name="question2">
+        <item>高中以下</item>
+        <item>专科</item>
+        <item>本科</item>
+        <item>研究生或者以上</item>
+    </string-array>
+    <string-array name="question3">
+        <item>5万以下</item>
+        <item>5-10万</item>
+        <item>10-20万</item>
+        <item>20-30万</item>
+        <item>30万以上</item>
+    </string-array>
+    <string-array name="question4">
+        <item>无固定收入</item>
+        <item>工资，劳务报酬</item>
+        <item>生产经营所得</item>
+        <item>利息，股息，转让证券等金融资产收入</item>
+    </string-array>
+    <string-array name="question5">
+        <item>小于10%</item>
+        <item>10%-25%</item>
+        <item>25%-50%</item>
+        <item>大于50%</item>
+    </string-array>
+    <string-array name="question6">
+        <item>资产保值</item>
+        <item>高于同期存款</item>
+        <item>资产稳健增长</item>
+        <item>资产迅速增长</item>
+    </string-array>
+    <string-array name="question7">
+        <item>银行存款</item>
+        <item>P2P投资</item>
+        <item>债券、偏债型基金</item>
+        <item>股票、偏股型基金</item>
+        <item>金融衍生品（如期货、外汇等）、私募股权投资</item>
+    </string-array>
+    <string-array name="question8">
+        <item>没有经验</item>
+        <item>少于2年</item>
+        <item>2至5年</item>
+        <item>5至8年</item>
+        <item>8年以上</item>
+    </string-array>
+    <string-array name="question9">
+        <item>30天</item>
+        <item>30-90天</item>
+        <item>90-180天</item>
+        <item>180天以上</item>
+    </string-array>
+    <string-array name="question10">
+        <item>是，曾经投过，也熟悉互联网</item>
+        <item>否，没有投资过，不熟悉互联网</item>
+    </string-array>
+
+    <integer-array name="material_colors">
+        <item>@color/material_red</item>
+        <item>@color/material_green</item>
+        <item>@color/material_blue</item>
+        <item>@color/material_yellow</item>
+    </integer-array>
+</resources>

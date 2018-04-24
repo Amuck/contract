@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true">
+
+    <include
+        android:id="@+id/top_bar"
+        layout="@layout/layout_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:id="@+id/d0"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DP_1"
+        android:layout_below="@+id/top_bar"
+        android:background="@color/divider_color" />
+
+    <FrameLayout
+        android:layout_below="@+id/d0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/stick_header"
+            android:visibility="invisible"/>
+
+        <!--<com.damao.tongxunlu.view.refreshlayout.MaterialRefreshLayout-->
+            <!--android:id="@+id/refresh"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_alignWithParentIfMissing="true"-->
+            <!--android:layout_above="@+id/footer"-->
+            <!--android:layout_below="@+id/d1"-->
+            <!--app:layout_behavior="@string/appbar_scrolling_view_behavior">-->
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/default_30" />
+        <!--</com.damao.tongxunlu.view.refreshlayout.MaterialRefreshLayout>-->
+        <com.damao.tongxunlu.view.PinYinSlideView
+            android:id="@+id/pinYinSlideView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right" />
+
+        <com.damao.tongxunlu.view.CircleTextView
+            android:id="@+id/circleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+
+</RelativeLayout>

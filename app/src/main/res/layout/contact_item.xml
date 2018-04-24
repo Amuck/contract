@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/stick_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/default_60"
+        android:layout_marginEnd="@dimen/default_30"
+        android:background="@color/gray_dark"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/default_30"
+            android:text="A"
+            android:textSize="@dimen/PX_34" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/name_panel"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/PX_34" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <color name="colorPrimary">#efefef</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="lightblue">#ADD8E6</color>
+    <color name="white">#FFF</color>
+    <color name="white_trans">#66FFFFFF</color>
+    <color name="black">#000</color>
+    <color name="gray">#B8B8B8</color>
+
+
+    <color name="gray_dark">#999999</color>
+    <color name="gray_light">#dcdcdc</color>
+
+    <!-- theme color -->
+    <color name="pink">#fb7299</color>
+
+
+    <color name="red">#F44336</color>
+
+
+    <color name="nav_background_color">#f6f7f7</color>
+
+    <color name="background_color">#efefef</color>
+    <color name="divider_color">#e5e5e5</color>
+
+    <color name="divider_gray">#cccccc</color>
+
+    <color name="text_color_666">#666666</color>
+    <color name="black_trans">#30000000</color>
+    <color name="app_black_trans">#66000000</color>
+
+    <color name="black_3233">#323333</color>
+
+    <color name="app_red">#ff4f3f</color>
+    <color name="app_blue_349">#349bea</color>
+    <color name="dark_app_red">#ff3826</color>
+    <color name="green_bank">#87c553</color>
+
+    <color name="transparent">#00ffffff</color>
+    <color name="transparent_00ffffff">#00ffffff</color>
+    <color name="text_color_333">#333333</color>
+    <color name="text_color_bbb">#bbbbbb</color>
+
+    <color name="text_ff7800">#ff7800</color>
+
+    <color name="topbar_right_text">#ff7801</color>
+    <color name="aob_help_msg_back">#fff6d4</color>
+
+    <color name="acs_add_card_bk">#f8fbfd</color>
+
+    <color name="dialog_btn_color">#0079ff</color>
+    <color name="gray_c6c6cc">#c6c6cc</color>
+    <color name="gray_c6c6c6">#c6c6c6</color>
+
+    <color name="gray_d5d5d5">#d5d5d5</color>
+    <color name="gray_f8f8f8">#f8f8f8</color>
+
+    <color name="color_b2b2b2">#b2b2b2</color>
+    <color name="color_eb4637">#eb4637</color>
+    <color name="color_f0f6fc">#f0f6fc</color>
+    <color name="color_3b4b5b">#3b4b5b</color>
+
+    <color name="color_999999">#999999</color>
+
+
+    <color name="material_red">#ffF44336</color>
+    <color name="material_green">#ff4CAF50</color>
+    <color name="material_blue">#ff03A9F4</color>
+    <color name="material_yellow">#ffFFEB3B</color>
+
+    <color name="ind_unselected">#ffc6ba</color>
+    <color name="cash_gift_back">#32000000</color>
+
+    <color name="color_ffd800">#ffd800</color>
+
+    <color name="normal_day">#ff999999</color>
+    <color name="selected_day_background">#E75F49</color>
+    <color name="selected_day_text">#fff2f2f2</color>
+</resources>

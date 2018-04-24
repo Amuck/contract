@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/top_bar"
+    android:layout_width="@dimen/default_60"
+    android:layout_height="@dimen/default_60"
+    android:background="@color/transparent_00ffffff">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="@dimen/default_60"
+        android:layout_height="@dimen/default_60"
+        android:layout_centerInParent="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/load_icon" />
+
+    <ImageView
+        android:id="@+id/progress"
+        android:layout_width="@dimen/default_60"
+        android:layout_height="@dimen/default_60"
+        android:layout_centerInParent="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/load_progress_icon" />
+</RelativeLayout>

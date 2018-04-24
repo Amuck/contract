@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/ltb_height"
+    android:id="@+id/phone_panel"
+    android:paddingEnd="@dimen/default_30"
+    android:background="@color/transparent">
+
+    <ImageView
+        android:id="@+id/delete"
+        android:layout_width="@dimen/ltb_height"
+        android:layout_height="@dimen/ltb_height"
+        android:layout_alignParentEnd="true"
+        android:visibility="gone"
+        android:scaleType="center"
+        android:src="@drawable/nav_close"/>
+
+
+    <TextView
+        android:id="@+id/phone_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/ltb_height"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/default_30"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="center"
+        android:textColor="@color/text_color_666"
+        android:textSize="@dimen/PX_30"
+        android:text="@string/phone_txt"/>
+
+    <EditText
+        android:id="@+id/phone_num"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/al_panel_height"
+        android:hint="@string/phone_num_txt"
+        android:layout_toEndOf="@+id/phone_txt"
+        android:layout_toStartOf="@+id/delete"
+        android:inputType="number"
+        android:maxLength="16"
+        android:maxLines="1"
+        android:paddingStart="@dimen/default_30"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray_c6c6c6"
+        android:textSize="@dimen/PX_30" />
+
+
+</RelativeLayout>

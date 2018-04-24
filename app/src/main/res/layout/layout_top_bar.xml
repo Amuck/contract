@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/top_bar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/ltb_height"
+    android:background="@color/transparent">
+
+    <ImageView
+        android:id="@+id/iv_back_click"
+        android:layout_width="@dimen/ltb_height"
+        android:layout_height="@dimen/ltb_height"
+        android:layout_alignParentLeft="true" />
+
+    <ImageView
+        android:id="@+id/iv_back_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/ltb_back_left"
+        android:layout_marginTop="@dimen/ltb_back_left"
+        android:src="@drawable/nav_arrow_back"
+        android:scaleType="center" />
+
+    <ImageView
+        android:id="@+id/iv_more_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/ltb_back_left"
+        android:layout_marginTop="@dimen/ltb_back_left"
+        android:scaleType="center"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/iv_more"
+        android:layout_width="@dimen/ltb_height"
+        android:layout_height="@dimen/ltb_height"
+        android:layout_marginEnd="@dimen/default_30"
+        android:layout_alignParentRight="true"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/iv_more_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/ltb_height"
+        android:layout_alignParentRight="true"
+        android:textSize="@dimen/PX_30"
+        android:layout_marginEnd="@dimen/default_30"
+        android:textColor="@color/topbar_right_text"
+        android:gravity="right|center_vertical"
+        android:paddingRight="@dimen/DP_0"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/ltb_back_left"
+        android:gravity="center"
+        android:text="@string/login"
+        android:textColor="@color/black"
+        android:textSize="@dimen/PX_34" />
+</RelativeLayout>

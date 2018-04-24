@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingEnd="@dimen/default_30"
+    android:background="@color/transparent">
+    <TextView
+        android:id="@+id/call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/msg"
+        android:background="?android:attr/selectableItemBackground"
+        android:drawableEnd="@android:drawable/ic_menu_call"
+        android:padding="@dimen/default_30"
+        android:text="13799999999"
+        android:textColor="@color/black"
+        android:textSize="@dimen/PX_34" />
+
+    <ImageView
+        android:id="@+id/msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/call"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/call"
+        android:background="?android:attr/selectableItemBackground"
+        android:paddingEnd="@dimen/default_30"
+        android:paddingStart="@dimen/default_30"
+        android:scaleType="center"
+        android:src="@android:drawable/ic_dialog_email" />
+
+</RelativeLayout>
