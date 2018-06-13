@@ -7,12 +7,14 @@ import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
+import android.widget.RadioGroup;
 import android.widget.TextView;
 
 import com.damao.tongxunlu.BaseLazyFragment;
 import com.damao.tongxunlu.R;
 import com.damao.tongxunlu.adapter.CallAdapter;
 import com.damao.tongxunlu.entity.CallLogNeedAllBean;
+import com.damao.tongxunlu.util.ConstanceUtil;
 import com.damao.tongxunlu.util.Util;
 import com.damao.tongxunlu.view.refreshlayout.MaterialRefreshLayout;
 import com.damao.tongxunlu.view.refreshlayout.MaterialRefreshListener;
@@ -28,21 +30,37 @@ import butterknife.OnClick;
  */
 
 public class PhoneFragment extends BaseLazyFragment implements PhoneContract.View{
+    /**
+     * 全部
+     */
+    private static final int ALL = R.id.all;
+    /**
+     *未接来电
+     */
+    private static final int NOT = R.id.not;
+    /**
+     * 常用联系人
+     */
+    private static final int ALLWAYS = R.id.allways;
     @BindView(R.id.list)
     RecyclerView list;
     @BindView(R.id.refresh)
     MaterialRefreshLayout materialRefreshLayout;
-    @BindView(R.id.collect)
-    TextView collect;
     @BindView(R.id.call)
     TextView call;
     @BindView(R.id.menu)
     TextView menu;
+    @BindView(R.id.filter_group)
+    RadioGroup filterGroup;
 
     /**
      * 禁止上拉下拉同时进行, true:可以进行上拉刷新
      */
     private boolean canLoadMore = false;
+    /**
+     * 筛选状态
+     */
+    private int type = ConstanceUtil.CONTRACT_ALL;
 
     private CallAdapter callAdapter;
 
@@ -77,7 +95,25 @@ public class PhoneFragment extends BaseLazyFragment implements PhoneContract.Vie
         new PhonePresenter(getActivity(), this);
 
         initFreshLayout();
+        initFileter();
         initRecycle();
+    }
+
+    private void initFileter() {
+        filterGroup.setOnCheckedChangeListener((group, checkedId) -> {
+            switch (checkedId) {
+                case ALL:
+                    type = ConstanceUtil.CONTRACT_ALL;
+                    break;
+                case NOT:
+                    type = ConstanceUtil.CONTRACT_NOT;
+                    break;
+                case ALLWAYS:
+                    type = ConstanceUtil.CONTRACT_ALLWAYS;
+                    break;
+            }
+            materialRefreshLayout.startRefresh();
+        });
     }
 
     @Override
@@ -96,7 +132,7 @@ public class PhoneFragment extends BaseLazyFragment implements PhoneContract.Vie
                 canLoadMore = false;
                 // 开始刷新数据后禁止切换筛选
                 changeFilterState(false);
-                presenter.getCallList();
+                presenter.getCallList(type);
             }
 
             @Override
@@ -147,17 +183,13 @@ public class PhoneFragment extends BaseLazyFragment implements PhoneContract.Vie
      * @param enable
      */
     private void changeFilterState(boolean enable) {
-        collect.setEnabled(enable);
         call.setEnabled(enable);
         menu.setEnabled(enable);
     }
 
-    @OnClick({R.id.collect, R.id.call, R.id.menu})
+    @OnClick({ R.id.call, R.id.menu})
     public void onViewClicked(View view) {
         switch (view.getId()) {
-            case R.id.collect:
-                // 收藏
-                break;
             case R.id.call:
                 // 拨号
                 Intent intent = new Intent(Intent.ACTION_DIAL,Uri.parse("tel:"+""));

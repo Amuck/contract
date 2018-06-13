@@ -1,5 +1,6 @@
 package com.damao.tongxunlu;
 
+import android.app.ActivityManager;
 import android.app.Application;
 import android.content.Context;
 import android.content.Intent;
@@ -8,6 +9,8 @@ import android.os.Build;
 import com.damao.tongxunlu.service.X5CorePreLoadService;
 import com.damao.tongxunlu.sp.SettingSharedpreferences;
 import com.damao.tongxunlu.util.Util;
+
+import java.util.List;
 
 
 /**
@@ -67,6 +70,20 @@ public class BaseApplication extends Application {
     public void loadLib() {
         checkFingerprintManager();
         preInitX5Core();
+    }
+
+    public  String getProcessName(Context cxt, int pid) {
+        ActivityManager am = (ActivityManager) cxt.getSystemService(Context.ACTIVITY_SERVICE);
+        List<ActivityManager.RunningAppProcessInfo> runningApps = am.getRunningAppProcesses();
+        if (runningApps == null) {
+            return null;
+        }
+        for (ActivityManager.RunningAppProcessInfo procInfo : runningApps) {
+            if (procInfo.pid == pid) {
+                return procInfo.processName;
+            }
+        }
+        return null;
     }
 
     public static BaseApplication getInstance() {

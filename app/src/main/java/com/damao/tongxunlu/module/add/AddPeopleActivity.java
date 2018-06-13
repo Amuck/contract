@@ -32,7 +32,6 @@ import com.iflytek.cloud.InitListener;
 import com.iflytek.cloud.RecognizerResult;
 import com.iflytek.cloud.SpeechConstant;
 import com.iflytek.cloud.SpeechError;
-import com.iflytek.cloud.SpeechUtility;
 import com.iflytek.cloud.ui.RecognizerDialog;
 import com.iflytek.cloud.ui.RecognizerDialogListener;
 import com.tbruyelle.rxpermissions2.RxPermissions;
@@ -119,8 +118,6 @@ public class AddPeopleActivity extends BaseActivity {
             module = 0;
             addToNew();
         }
-
-        SpeechUtility.createUtility(this, SpeechConstant.APPID + "=5a94b84c");
     }
 
     /**

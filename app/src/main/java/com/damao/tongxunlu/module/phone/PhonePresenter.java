@@ -40,7 +40,7 @@ public class PhonePresenter implements PhoneContract.Presenter{
     }
 
     @Override
-    public void getCallList() {
+    public void getCallList(int type) {
         callHistoryInteractor.execute(new DisposableSubscriber<CllLogEntity>() {
             @Override
             public void onNext(CllLogEntity cllLogEntity) {
@@ -62,7 +62,7 @@ public class PhonePresenter implements PhoneContract.Presenter{
             public void onComplete() {
 
             }
-        }, new CallHistoryInteractor.RequestValues(-1));
+        }, new CallHistoryInteractor.RequestValues(type));
     }
 
     @Override

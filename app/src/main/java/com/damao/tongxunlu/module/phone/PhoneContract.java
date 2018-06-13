@@ -16,7 +16,7 @@ public class PhoneContract {
         /**
          * 获取通话记录
          */
-        void getCallList();
+        void getCallList(int type);
 
         /**
          * 获取通话记录详情

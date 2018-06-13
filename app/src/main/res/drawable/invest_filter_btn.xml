@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_checked="true">
-        <layer-list>
-        <item android:top="@dimen/ami_filter_check_top"
-            android:right="@dimen/ami_filter_check_letf"
-            android:left="@dimen/ami_filter_check_letf">
-
-            <shape  >
-                <solid   android:color="@color/app_red" />
-            </shape>
-        </item>
-        </layer-list>
+    <item android:state_checked="true" android:drawable="@color/radio_select">
     </item>
 
-    <item android:drawable="@color/transparent"></item>
+    <item android:drawable="@color/radio_select_normal"/>
 
 </selector>

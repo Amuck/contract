@@ -13,6 +13,7 @@ import android.widget.TextView;
 
 import com.damao.tongxunlu.R;
 import com.damao.tongxunlu.entity.CallLogNeedAllBean;
+import com.damao.tongxunlu.util.Util;
 
 import java.util.ArrayList;
 
@@ -68,7 +69,7 @@ public class CallAdapter extends RecyclerView.Adapter {
 //            }
 //            return footerViewHolder;
 //        } else {
-            View view = LayoutInflater.from(context).inflate(R.layout.layout_call_item, parent, false);
+            View view = LayoutInflater.from(context).inflate(R.layout.layout_call_simple_item, parent, false);
             return new ItemViewHolder(view, itemClickListener);
 //        }
     }
@@ -84,35 +85,44 @@ public class CallAdapter extends RecyclerView.Adapter {
             String location = callEntity.getLocation();
             String submit = "";
             int type = callEntity.getType();
+            int img = R.drawable.icon_huru;
+            int color = R.color.text_color_333;
             switch (type) {
                 case CallLog.Calls.INCOMING_TYPE:
                     submit = "呼入";
+                    img = R.drawable.icon_huru;
                     break;
                 case CallLog.Calls.OUTGOING_TYPE:
                     submit = "呼出";
+                    img = R.drawable.icon_huchu;
                     break;
                 case CallLog.Calls.MISSED_TYPE:
                     submit = "未接";
+                    color = R.color.not_get;
+                    img = R.drawable.icon_huru;
                     break;
                 case CallLog.Calls.REJECTED_TYPE:
                 case CallLog.Calls.BLOCKED_TYPE:
                     submit = "拒接";
+                    img = R.drawable.icon_huru;
                     break;
             }
             if (!TextUtils.isEmpty(location))
                 submit += " " +location + " " + date;
             else
                 submit += " " +date;
+            itemViewHolder.tvTitle.setTextColor(Util.getColor(color));
             if (TextUtils.isEmpty(name)){
                 itemViewHolder.tvTitle.setText(number);
             } else {
                 itemViewHolder.tvTitle.setText(name);
             }
-            itemViewHolder.submit.setText(submit);
-            itemViewHolder.ivNext.setOnClickListener(v -> {
-                if (itemClickListener != null)
-                    itemClickListener.detailClick(position);
-            });
+            itemViewHolder.submit.setText(date);
+            itemViewHolder.ivNext.setImageResource(img);
+//            itemViewHolder.ivNext.setOnClickListener(v -> {
+//                if (itemClickListener != null)
+//                    itemClickListener.detailClick(position);
+//            });
 //        } else if (holder instanceof FooterViewHolder) {
 //            FooterViewHolder footerViewHolder = (FooterViewHolder) holder;
 //            footerViewHolder.title.setText(context.getString(R.string.load_new));

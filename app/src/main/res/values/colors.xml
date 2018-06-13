@@ -25,6 +25,7 @@
 
     <color name="background_color">#efefef</color>
     <color name="divider_color">#e5e5e5</color>
+    <color name="divider_color1">#7B7B7B</color>
 
     <color name="divider_gray">#cccccc</color>
 
@@ -79,4 +80,10 @@
     <color name="normal_day">#ff999999</color>
     <color name="selected_day_background">#E75F49</color>
     <color name="selected_day_text">#fff2f2f2</color>
+    <color name="radio_select">#3FB134</color>
+    <color name="radio_select_normal">#3F4046</color>
+    <color name="radio_select2">#2F96DC</color>
+    <color name="radio_select_normal2">#758095</color>
+    <color name="phone_bottom_back">#454547</color>
+    <color name="not_get">#E73D02</color>
 </resources>

@@ -22,15 +22,8 @@
             android:clickable="true"
             android:gravity="center"
             android:text="@string/home_one"
-            android:textColor="@drawable/invest_filter_txt"
-            android:textSize="@dimen/PX_34" />
-
-        <View
-            android:layout_width="@dimen/DP_1"
-            android:layout_height="match_parent"
-            android:layout_marginBottom="@dimen/ami_filter_divider"
-            android:layout_marginTop="@dimen/ami_filter_divider"
-            android:background="@color/divider_color" />
+            android:textColor="@color/white"
+            android:textSize="@dimen/SP_30" />
 
         <RadioButton
             android:id="@+id/people"
@@ -41,15 +34,8 @@
             android:clickable="true"
             android:gravity="center"
             android:text="@string/home_two"
-            android:textColor="@drawable/invest_filter_txt"
-            android:textSize="@dimen/PX_34" />
-
-        <View
-            android:layout_width="@dimen/DP_1"
-            android:layout_height="match_parent"
-            android:layout_marginBottom="@dimen/ami_filter_divider"
-            android:layout_marginTop="@dimen/ami_filter_divider"
-            android:background="@color/divider_color" />
+            android:textColor="@color/white"
+            android:textSize="@dimen/SP_30" />
 
         <RadioButton
             android:id="@+id/yellow"
@@ -60,8 +46,8 @@
             android:clickable="true"
             android:gravity="center"
             android:text="@string/home_three"
-            android:textColor="@drawable/invest_filter_txt"
-            android:textSize="@dimen/PX_34" />
+            android:textColor="@color/white"
+            android:textSize="@dimen/SP_30" />
     </RadioGroup>
 
 
@@ -70,13 +56,5 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/filter_group" />
-
-    <View
-        android:id="@+id/d2"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/DP_1"
-        android:layout_below="@+id/filter_group"
-        android:background="@color/divider_color" />
-
 
 </RelativeLayout>

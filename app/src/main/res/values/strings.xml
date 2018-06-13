@@ -50,9 +50,12 @@
     <string name="add_new_error1">请输入姓名</string>
     <string name="add_new_error2">请输入手机号</string>
 
-    <string name="home_one">拨号</string>
+    <string name="home_one">通话</string>
     <string name="home_two">联系人</string>
     <string name="home_three">黄页</string>
+    <string name="phone_one">全部通话</string>
+    <string name="phone_two">未接来电</string>
+    <string name="phone_three">常用联系人</string>
 
     <integer name="max_password">16</integer>
     <string name="input_phone">请输入手机号码</string>

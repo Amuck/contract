@@ -90,6 +90,11 @@ public class ContractRepository {
                     continue;
                 }
             }
+            if (filterType == CallLog.Calls.OUTGOING_TYPE) {
+                if (type != CallLog.Calls.OUTGOING_TYPE) {
+                    continue;
+                }
+            }
 
             callEntity.setType(type);
             //通话日期

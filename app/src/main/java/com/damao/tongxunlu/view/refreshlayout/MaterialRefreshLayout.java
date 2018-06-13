@@ -63,7 +63,7 @@ public class MaterialRefreshLayout extends FrameLayout {
     private int progressSize = 0;
     private boolean isLoadMoreing;
     private boolean isLoadMore;
-    private boolean isSunStyle = true;
+    private boolean isSunStyle = false;
     /**
      * 是否有最小刷新高度
      */
@@ -381,12 +381,19 @@ public class MaterialRefreshLayout extends FrameLayout {
      * 开始刷新
      */
     public void startRefresh() {
-        if (wcLayout != null) {
+        if (isSunStyle && wcLayout != null) {
             createAnimatorTranslationY(mChildView, mHeadHeight, wcLayout);
             wcLayout.setVisibility(View.VISIBLE);
             wcLayout.getLayoutParams().height = (int) getResources().getDimension(R.dimen.default_60);
             wcLayout.requestLayout();
             wcLayout.onPull(this, 1);
+            updateListener();
+        } else if(mMaterialHeaderView != null) {
+            createAnimatorTranslationY(mChildView, mHeadHeight, mMaterialHeaderView);
+            mMaterialHeaderView.setVisibility(View.VISIBLE);
+            mMaterialHeaderView.getLayoutParams().height = (int) getResources().getDimension(R.dimen.default_60);
+            mMaterialHeaderView.requestLayout();
+            mMaterialHeaderView.onPull(this, 1);
             updateListener();
         }
     }
